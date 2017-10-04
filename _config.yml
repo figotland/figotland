@@ -28,7 +28,7 @@ defaults:
     type: authors
   values:
     layout: page
-    image:
+    image: 
 permalink: pretty
 sass:
   sass_dir: styles/
