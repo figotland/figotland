@@ -1,6 +1,10 @@
 ---
 title: Hög tid för krafttag mot nazism och rasism!
-date: 2017-10-04 13:23:00 Z
+date: 2017-10-04 13:25:00 Z
+authors:
+- Elin Bååth
+- Lisa Tunegård
+image: "/uploads/cover_28-04-17.jpg"
 ---
 
 Hösten 2016 och Almedalsveckan 2017 går till historien på Gotland som tiden då nazismen tog — och gavs — utrymme på Gotland. Det är ord vi aldrig trodde att vi skulle behöva skriva. Vi trodde att om det är något vi alla lärt oss, så är det att aldrig, aldrig någonsin igen ge nazismen utrymme.
