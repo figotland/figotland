@@ -1,0 +1,41 @@
+$primary-pink: hsl(340, 100%, 63%); // #ff4081
+$secondary-pink: rgb(248, 187, 208);
+$lighter-pink: hsl(340, 100%, 75%); // #ff80ab
+$darker-pink: hsl(339, 100%, 96%); 	// #f50057
+
+$neutral-black: hsl(240, 1%, 14%); 	// #222223
+$cool-grey: hsl(0, 0%, 75%); 				// #939393
+$almost-white: hsl(0, 0%, 97%); 		// #f7f7f7
+$gold: rgb(179, 150, 122);
+$black: #1a1a1a;
+$base-bg-color: $almost-white;
+$base-font-color: $black;
+
+$font-sans-serif: 'Source Sans Pro', sans-serif;
+$font-serif: 'Roboto Slab', serif;
+
+$header-height: 48px;
+
+$icon-color: #cd1b68;
+
+$navigation-bg: $primary-pink;
+$navigation-border: $lighter-pink;
+$navigation-height: 50px;
+
+$gap: 32px;
+
+$tablet: 768px;
+$desktop: 960px + (2 * $gap);
+$widescreen: 1152px + (2 * $gap);
+$fullhd: 1344px + (2 * $gap);
+
+$breakpoints: (
+  'phone': 320px,
+  'tablet': 768px,
+  'desktop': 1068px,
+  'widescreen': 1260px,
+) !default;
+
+$grid-columns: 12;
+$grid-gap: 24px;
+$grid-width: 1140px;

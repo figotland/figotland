@@ -1,0 +1,140 @@
+.header {
+  height: $header-height;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  @include variant(is-active) {
+    .header__title {
+      transform: skew(-10deg, 0deg) translateX(0);
+    }
+
+    .header__content {
+      transform: translateX(0);
+    }
+  }
+}
+
+.header__title {
+  background-color:  $primary-pink;
+  height: $header-height;
+  position: absolute;
+  width: $header-height;
+  z-index: 3;
+
+  transform: skew(-10deg, 0deg) translateX(1rem);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo {
+  background-image: url('/uploads/fi-symbol.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: $header-height / 2;
+  height: $header-height;
+  position: absolute;
+  width: $header-height;
+  z-index: 3;
+
+  transform: skew(10deg, 0deg);
+}
+
+.header__content {
+  background-color: $primary-pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+
+  transform: translateX(-100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  div:nth-child(2) {
+    align-self: flex-end;
+  }
+}
+
+.active {
+  transform: rotate(90deg);
+
+  .menu-icon__crust {
+    background-color: #fff;
+    transition: background-color .4s;
+  }
+
+  .menu-icon__bread--top {
+    transition: transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+    transform: rotate(45deg);
+  }
+
+  .menu-icon__bread--bottom {
+    transition: transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+    transform: rotate(-45deg);
+  }
+
+  .menu-icon__crust--top,
+  .menu-icon__crust--bottom {
+    transform: translateY(0);
+  }
+}
+
+.menu-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: $header-height;
+  position: absolute;
+  right: 0;
+  width: $header-height;
+  z-index: 3;
+
+  transition: transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+  @include media('>=tablet') {
+    right: 1rem;
+  }
+}
+
+.menu-icon__bread {
+  height: $header-height;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: $header-height;
+}
+
+.menu-icon__bread--top {
+  transition: transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transform: rotate(0);
+}
+
+.menu-icon__bread--bottom {
+  transition: transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transform: rotate(0);
+}
+
+.menu-icon__crust {
+  background-color: $primary-pink;
+  display: block;
+  height: 1px;
+  left: 16px;
+  position: absolute;
+  width: 17px;
+
+  transition: transform 0.2s;
+}
+
+.menu-icon__crust--top {
+  top: 23px;
+  transform: translateY(-3px);
+  transition: transform 0.2s 0.2s;
+}
+
+.menu-icon__crust--bottom {
+  bottom: 23px;
+  transform: translateY(3px);
+  transition: transform 0.2s 0.2s;
+}

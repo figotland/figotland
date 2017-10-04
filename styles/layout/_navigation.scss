@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  position: relative;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.nav__item {
+  margin: 0.5rem 0;
+}
+
+.nav__link {
+  color: white;
+  font-family: $font-serif;
+}
+
+#main-nav .nav__item {
+  @for $i from 1 through 9 {
+    &:nth-child(#{$i}) {
+      animation-delay: $i * 0.1s;
+    }
+  }
+}
+
+#sub-nav {
+  margin-top: 1rem;
+
+  &:before {
+    background-color: #fff;
+    content: '';
+    height: 1px;
+    position: absolute;
+    top: -1rem;
+    width: 25px;
+  }
+}

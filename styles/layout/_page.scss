@@ -1,0 +1,19 @@
+.page {
+
+  &__title {
+    font-size: 3.6rem;
+    line-height: 1.2;
+  }
+
+  &__content {
+    p a:not(.button) {
+      border-bottom: 2px solid $primary-pink;
+      transition: color .1s linear, border-color .1s linear;
+
+      &:hover {
+        color: $primary-pink;
+        border-color: transparent;
+      }
+    }
+  }
+}

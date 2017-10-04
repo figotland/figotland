@@ -1,0 +1,112 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+
+  @include media("≥tablet", "<desktop") {
+    padding: 0 20px;
+  }
+
+  &--is-preview {
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+
+    &:first-of-type {
+      margin-top: 1.6em;
+    }
+
+    .post__title {
+      font-size: 2.4rem;
+
+      @include media("≥tablet")  {
+        font-size: 3.6rem;
+      }
+    }
+
+    .post__meta {
+      font-size: 1.4rem;
+    }
+
+    .post__content p {
+      font-size: 1.6rem;
+      line-height: 1.8;
+      margin-top: .8em;
+    }
+  }
+
+  &__header {
+    order: -1;
+  }
+
+  &__meta {
+    color: #888;
+    font-family: $font-sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.075em;
+
+    @include media("≥tablet") {
+      font-size: 1.6rem;
+      letter-spacing: 0;
+    }
+  }
+
+  &__video {
+    padding-bottom: 56.25%;
+    height: 0;
+
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 3.6rem;
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+  }
+
+  &__author {
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  &__content {
+    font-size: 1.6rem;
+    line-height: 1.8;
+
+    @include media('>=tablet') {
+      font-size: 1.8rem;
+    }
+
+    p a:not(.button) {
+      border-bottom: 2px solid $primary-pink;
+      transition: color .1s linear, border-color .1s linear;
+
+      &:hover {
+        color: $primary-pink;
+        border-color: transparent;
+      }
+    }
+  }
+
+  &__share {
+    color: grey;
+    font-family: $font-sans-serif;
+    font-size: 1.6rem;
+    margin: 1.6em 0;
+  }
+
+  &__footer {
+    font-family: $font-sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+
+    p {
+      margin: 0 0 0.4em;
+      line-height: 1.4;
+    }
+  }
+}

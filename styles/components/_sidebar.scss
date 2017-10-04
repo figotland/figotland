@@ -1,0 +1,25 @@
+.sidebar {
+  font-style: italic;
+  margin-top: 1.6em;
+
+  ul {
+    list-style: none;
+    margiin: 0;
+    padding: 0;
+  }
+
+  li:first-of-type:before {
+    content: 'Relaterat:';
+    display: block;
+  }
+}
+
+.sidebar__link {
+  border-bottom: 2px solid $primary-pink;
+  transition: color .1s linear, border-color .1s linear;
+
+  &:hover {
+    color: $primary-pink;
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,116 @@
+@mixin make-row-helpers($breakpoint) {
+  .grid__row--#{$breakpoint}-top {
+    align-items: flex-start;
+  }
+  .grid__row--#{$breakpoint}-center {
+    align-items: center;
+  }
+  .grid__row--#{$breakpoint}-bottom {
+    align-items: flex-end;
+  }
+}
+
+@mixin make-col-helpers($breakpoint) {
+  .grid__col--#{$breakpoint}-align-top {
+    align-self: flex-start;
+  }
+  .grid__col--#{$breakpoint}-align-center {
+    align-self: center;
+  }
+  .grid__col--#{$breakpoint}-align-bottom {
+    align-self: flex-end;
+  }
+
+  .grid__col--#{$breakpoint}-first {
+    order: -1;
+  }
+  .grid__col--#{$breakpoint}-last {
+    order: 1;
+  }
+  .grid__col--#{$breakpoint}-reset {
+    order: 0;
+  }
+  .grid__row--#{$breakpoint}-reverse {
+    flex-direction: row-reverse;
+  }
+  .grid__col--#{$breakpoint}-flex {
+    display: flex;
+  }
+}
+
+@mixin make-text-helpers($breakpoint) {
+  .text--#{$breakpoint}-right {
+    text-align: right;
+  }
+  .text--#{$breakpoint}-left {
+    text-align: left;
+  }
+  .text--#{$breakpoint}-center {
+    text-align: center;
+  }
+}
+
+@mixin make-helpers($breakpoint) {
+  @include make-row-helpers($breakpoint);
+  @include make-col-helpers($breakpoint);
+  @include make-text-helpers($breakpoint);
+}
+
+@mixin make-default() {
+  & {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+    padding: 1rem .5rem 0 .5rem;
+  }
+}
+
+@mixin make-offset($grid-columns) {
+  @for $number from 1 through $grid-columns {
+    &-offset-#{$number} {
+      margin-left: (100 / $grid-columns * $number)#{'%'};
+    }
+  }
+}
+
+@mixin make-column($grid-columns) {
+  @for $number from 1 through $grid-columns {
+    &-#{$number} {
+      width: (100 / $grid-columns * $number)#{'%'};
+      flex: none;
+    }
+  }
+}
+
+@mixin make-grid-column($breakpoint, $grid-columns) {
+  @include make-helpers($breakpoint);
+  .grid__col--#{$breakpoint} {
+    @include make-default();
+    @include make-column($grid-columns);
+    @include make-offset($grid-columns)
+  }
+}
+
+@mixin init($breakpoints, $grid-columns) {
+  @each $breakpoint, $width in $breakpoints {
+    @if ($width == 0) {
+      @include make-grid-column($breakpoint, $grid-columns);
+    } @else {
+      @media (min-width: $width) {
+        @include make-grid-column($breakpoint, $grid-columns);
+      }
+    }
+  }
+}
+
+@mixin has($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+@mixin variant($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}

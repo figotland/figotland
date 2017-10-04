@@ -1,0 +1,23 @@
+.icon {
+  align-items: center;
+  display: inline-flex;
+  fill: #424242;
+  height: 16px;
+  margin-right: .5rem;
+  stroke: currentColor;
+  stroke-width: 0;
+  vertical-align: -2px;
+  width: 16px;
+
+  &--24x24 {
+    height: 24px;
+    vertical-align: top;
+    width: 24px;
+  }
+
+  &--32x32 {
+    height: 32px;
+    vertical-align: top;
+    width: 32px;
+  }
+}

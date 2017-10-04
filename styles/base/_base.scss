@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.8;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#main {
+  flex: 1 0 auto;
+  margin-top: $header-height * 1.5;
+}

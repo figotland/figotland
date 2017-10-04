@@ -23,4 +23,13 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: authors
+  values:
+    layout: page
+    image:
 permalink: pretty
+sass:
+  sass_dir: styles/
+  style: compressed

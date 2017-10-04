@@ -1,0 +1,48 @@
+.button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid pink;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: $font-serif;
+  font-size: 1.4rem;
+  height: 2.25em;
+  // margin: 1.5rem 0;
+  padding: 1.5em 1.5em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button__primary {
+  background-color: pink;
+
+  @include media('>=tablet') {
+    background-color: transparent;
+  }
+
+  span {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:before {
+    background-color: pink;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    transform: scale(0, 1);
+    transform-origin: right center;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover:before {
+    transform: scale(1, 1);
+    transform-origin: left center;
+  }
+}
