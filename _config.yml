@@ -1,6 +1,6 @@
 ---
 title: figotland
-timezone: UTC
+timezone: Europe/Amsterdam
 collections:
   posts:
     title: Posts
