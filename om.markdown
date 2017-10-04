@@ -1,6 +1,6 @@
 ---
 title: Om
-date: 2017-10-04 13:29:00 +02:00
+date: 2017-10-04 13:30:00 +02:00
 ---
 
 Välkomna till F! Gotland! Vi kämpar för en jämställd, jämlik och ekologiskt hållbar ö och värld. Vi har funnits på Gotland sedan 2006 och arbetar med feministisk politik på flera olika sätt. För att alla som vill vara aktiva ska få utlopp för just sina intressen och förmågor, har vi delat in oss i arbetsgrupper. De olika arbetsgrupperna samordnar sitt arbete i styrelsen, där en representant för varje arbetsgrupp är med.
