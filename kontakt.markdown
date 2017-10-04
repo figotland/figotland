@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-date: 2017-10-04 13:30:00 +02:00
+date: 2017-10-04 11:30:00 Z
 ---
 
 Vill du veta mer? Följ oss på sociala medier eller skriv till oss på [gotland@feministisktinitiativ.se](mailto:gotland@feministisktinitiativ.se)
