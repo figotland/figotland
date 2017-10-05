@@ -1,0 +1,31 @@
+{% assign post = include.post %}
+{% assign is_excerpt = include.is_excerpt %}
+{% if is_excerpt %}
+<article class="post post--is-preview">
+  <div class="grid__row">
+    {% if post.image %}
+    <div class="grid__col grid__col--tablet-4 grid__col--desktop-5">
+      <img class="post__image" src="{{post.image}}">
+    </div>
+    {% endif %}
+    <div class="grid__col grid__col--tablet-7 grid__col--desktop-5 grid__col--tablet-offset-1 grid__col--desktop-offset-1">
+      <header class="post__header">
+        <small class="post__meta">
+          {% if post.date %}
+          <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html %}</time>
+          {% endif %}
+        </small>
+        {% if post.title %}
+        <h2 class="post__title"><a href="{{post.url}}">{{post.title}}</a></h2>
+        {% endif %}
+      </header>
+      <div class="post__content ">
+        {{ post.excerpt | truncatewords: 14}}
+      </div>
+      {% if is_excerpt and post.excerpt != post.content %}
+      <a class="button button__primary" href="{{post.url}}"><span>Läs mer</span></a>
+      {% endif %}
+    </div>
+  </div>
+</article>
+{% endif %}

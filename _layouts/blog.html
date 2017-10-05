@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="grid grid__container">
+  {% if page.title %}
+  <div class="grid__row">
+    <div class="grid__col">
+      <h2 class="page__title">{{ page.title }}</h2>
+    </div>
+  </div>
+  {% endif %}
+
+  {% for post in site.posts limit: 10 %}
+    {% include post.html post=post is_excerpt=true %}
+  {% endfor %}
+
+  <div class="grid__row">
+    <div class="grid__col">
+      <a class="button button__primary" href="/blogg/arkiv/"><span>Äldre inlägg</span></a>
+    </div>
+  </div>
+</div>
