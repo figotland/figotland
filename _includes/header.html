@@ -1,0 +1,43 @@
+<header class="header" id="header" role="banner">
+  <div class="grid grid__container">
+    <a class="header__title" href="/">
+      <span class="logo"></span>
+    </a>
+    <button class="menu-icon" id="menu">
+      <span class="menu-icon menu-icon__bread menu-icon__bread--top">
+        <span class="menu-icon menu-icon__crust menu-icon__crust--top"></span>
+      </span>
+      <span class="menu-icon menu-icon__bread menu-icon__bread--bottom">
+        <span class="menu-icon menu-icon__crust menu-icon__crust--bottom"></span>
+      </span>
+    </button>
+  </div>
+
+  <div class="header__content" id="navigation">
+    <div class="grid grid__container">
+      <div class="grid__row grid__row--column">
+        <div class="grid__col grid__col--phone-12 grid__col--tablet-10 grid__col--tablet-offset-2">
+          <nav class="nav" id="main-nav">
+            <ul class="nav__list">
+              <!-- {% for item in site.data.navigation.header %}
+              <li class="nav__item hidden">
+                <a class="nav__link" href="{{item.url}}">{{item.title}}</a>
+              </li>
+              {% endfor %} -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="grid__row grid__row--column">
+        <div class="grid__col grid__col--phone-12 grid__col--tablet-10 grid__col--tablet-offset-2">
+          <nav class="nav hidden" id="sub-nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link text-small" href="">Söderväg 1, 621 58 Visby</a></li>
+              <li class="nav__item"><a class="nav__link text-small" href="mailto:gotland@feministisktinitiativ.se">gotland@feministisktinitiativ.se</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
