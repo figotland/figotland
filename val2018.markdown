@@ -1,6 +1,7 @@
 ---
 title: Val 2018
 date: 2017-10-04 11:42:00 Z
+layout: faq
 FAQ:
 - question_text: Vad innebär det att kandidera?
   answer_text: 'F!:s lista till regionfullmäktige kommer fastställas på årsmötet i
@@ -15,9 +16,9 @@ FAQ:
     * Att du är medlem i Feministiskt initiativ
     * Att du är folkbokförd på Gotland
     * Att du är något av följande:
-    - svensk medborgare och folkbokförd i Sverige eller
-    - EU-medborgare, eller medborgare i Norge eller Island och är folkbokförd i Sverige eller
-    - medborgare i något annat land och har varit folkbokförd i Sverige i tre år.
+      - svensk medborgare och folkbokförd i Sverige eller
+      - EU-medborgare, eller medborgare i Norge eller Island och är folkbokförd i Sverige eller
+      - medborgare i något annat land och har varit folkbokförd i Sverige i tre år.
 - question_text: Vad innebär det att sitta i regionfullmäktige?
   answer_text: "Att sitta i regionfullmäktige för F! innebär att du har möjlighet
     att vara med och skapa verklig förändring för ett mer jämlikt och hållbart samhälle.
@@ -51,7 +52,7 @@ FAQ:
 
 Tiden har kommit för att nominera till F!:s regionfullmäktigelista i valet 2018. Föreslå någon eller flera som du skulle vilja se som ledamöter i fullmäktige på Gotland – och kandidera gärna själv! När du nominerar någon annan än dig själv måste den personen först vara tillfrågad.
 
-Maktens rum behöver fyllas med människor med olika bakgrund, erfarenheter och åldrar. Du behöver inte ha partipolitisk erfarenhet för att kandidera – det viktiga är att du brinner för ett jämlikt och hållbart samhälle. Du kommer få allt det stöd du behöver av F! för att känna dig trygg på din plats när det väl är dags. 
+Maktens rum behöver fyllas med människor med olika bakgrund, erfarenheter och åldrar. Du behöver inte ha partipolitisk erfarenhet för att kandidera – det viktiga är att du brinner för ett jämlikt och hållbart samhälle. Du kommer få allt det stöd du behöver av F! för att känna dig trygg på din plats när det väl är dags.
 
 SISTA DATUM ÄR 31 januari 2018
 
