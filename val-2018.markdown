@@ -1,6 +1,0 @@
----
-title: Val 2018
-date: 2017-10-04 11:42:00 Z
----
-
-Lorem ipsum
