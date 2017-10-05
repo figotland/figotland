@@ -1,0 +1,18 @@
+header:
+- title: Om F! Gotland
+  url: /om/
+- title: Vår politik
+  url: /politik/
+- title: Våra politiker
+  url: /politiker/
+- title: Styrelsen
+  url: /styrelsen/
+- title: Blogg
+  url: /blogg/
+- title: Kalender
+  url: /kalender/
+- title: Kontakt
+  url: /kontakt/
+footer:
+- title: In English
+  url: /om/

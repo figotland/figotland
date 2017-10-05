@@ -2,4 +2,22 @@
 layout: default
 ---
 
-{{ content }}
+<div class="grid grid__container">
+  {% if page.title %}
+  <div class="grid__row">
+    <div class="grid__col">
+      <h2 class="page__title">{{ page.title }}</h2>
+    </div>
+  </div>
+  {% endif %}
+  <div class="grid__row">
+    <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-1 grid__col--desktop-6 grid__col--widescreen-6">
+      <div class="page__content">
+        {{ content }}
+      </div>
+    </div>
+    {% if page.assets %}
+      {% include sidebar.html %}
+    {% endif %}
+  </div>
+</div>
