@@ -6,6 +6,8 @@ tags:
 - vatten
 authors:
 - Elin Bååth
+- Margareta Nobell
+- Gerd Holmgren
 image: "/uploads/cover_28-04-17.jpg"
 ---
 
