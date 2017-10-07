@@ -6,96 +6,72 @@
   position: relative;
 
   &:before {
+    color: $primary-pink;
     content: '+';
     display: block;
+    font-family: $font-serif;
+    font-size: 2.2rem;
     position: absolute;
     right: 0;
+    top: 8px;
   }
 
   &__title {
     display: block;
+    font-family: $font-serif;
+    font-size: 1.6rem;
     padding: 1.5rem 0;
   }
 
   &__content {
+    animation-delay: 0ms;
+    animation-duration: 0ms;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
     height: auto;
-    max-height: 0;
+    max-height: 0px;
     overflow: hidden;
+    position: static;
+    transition: max-height 480ms ease;
+    transition-timing-function: cubic-bezier(0.5, 0.25, 0.75, 1.5);
+    transition-delay: 120ms;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
   }
+}
+
+.accordion__content>* {
+  transition: opacity 180ms ease;
+  transition-delay: 0ms;
+  transition-timing-function: cubic-bezier(0.5, 0.25, 0.75, 1.5)
+}
+
+.accordion:not(.accordion--is-expanded) .accordion__content>* {
+  opacity: 0;
 }
 
 .accordion+.accordion {
   margin-top: -41px;
 }
-// .accordion {
-//   margin-top: 1.5rem;
 
-//   &__item {
-//     border-bottom: 1px solid #dcdcdc;
-//     padding: 1.5rem 0;
-//     position: relative;
+.accordion--is-expanded {
+  .accordion__content {
+    animation-name: overflowVisible;
+    animation-delay: 960ms;
+    max-height: 100em;
+    transition-delay: 240ms;
+    transition-duration: 720ms;
+  }
+}
 
-//     @include media('>=tablet') {
-//       border: 0;
-//       padding: 0;
-
-//       &:after {
-//         background-color: #dcdcdc;
-//         content: '';
-//         display: block;
-//         margin: 2.5rem auto;
-//         height: 1px;
-//         width: calc(83.3333333333% - 3rem);
-//       }
-//     }
-//   }
-
-//   &__title {
-//     color: $black;
-//     cursor: pointer;
-//     font-family: $font-serif;
-//     font-weight: 400;
-//   }
-
-//   &__content {
-//     cursor: auto;
-//     height: auto;
-//     overflow: hidden;
-//   }
-// }
-
-// .accordion__item--is-collapsed {
-//   .accordion__content {
-//     max-height: 0;
-//   }
-// }
-
-// .accordion__meta {
-
-//   ul {
-//     list-style: none;
-//     margin: 1.5rem 0;
-//     padding: 0;
-//   }
-
-//   li {
-//     margin: 0;
-
-//     &:first-of-type:before {
-//       content: 'Källor:';
-//       display: block;
-//     }
-//   }
-
-//   a {
-//     border-bottom: 2px solid transparent;
-//     color: grey;
-//     transition: border-color .2s ease-out;
-
-//     &:hover { border-bottom: 2px solid pink; }
-//   }
-// }
-
-// .grey {
-//   background-color: #fafafa;
-// }
+@keyframes overflowVisible {
+  0% {
+    overflow: hidden;
+  }
+  100% {
+    overflow: visible;
+  }
+}

@@ -43,7 +43,7 @@ FAQ:
     är bland det mest utvecklande och meningsfulla du kan göra - du får en inblick
     i hur samhället fungerar på ett ojämförligt sätt, och som F!-politiker är du med
     och arbetar för ett jämlikt och hållbart samhälle."
-- question_text: Hur kommer F!:s lista kommer tas fram?
+- question_text: Hur kommer F!:s lista tas fram?
   answer_text: |-
     När alla kandidaturer och nomineringar kommit in kontaktar valberedningen kandidaterna och genomför intervjuer. Utifrån det tar valberedningen fram ett förslag på en lista, baserat på intervjuerna och med ett intersektionellt perspektiv.* Listan till regionfullmäktige kommer slutligen röstas fram på F!:s årsmöte i mars 2018.
 
@@ -56,4 +56,6 @@ Maktens rum behöver fyllas med människor med olika bakgrund, erfarenheter och 
 
 SISTA DATUM ÄR 31 januari 2018
 
-Kandidera och nominera [här](https://docs.google.com/forms/d/e/1FAIpQLSdTQiW_RAVMjftGghayKm2zrcXLxZQlGn0-blQfinNQFf40cQ/viewform)
+[Kandidera och nominera här](https://docs.google.com/forms/d/e/1FAIpQLSdTQiW_RAVMjftGghayKm2zrcXLxZQlGn0-blQfinNQFf40cQ/viewform)
+
+### Frågor och svar

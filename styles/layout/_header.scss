@@ -93,7 +93,7 @@
 
   transition: transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 
-  @include media('>=tablet') {
+  @include media('≥tablet') {
     right: 1rem;
   }
 }

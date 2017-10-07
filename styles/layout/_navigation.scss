@@ -23,6 +23,10 @@
 .nav__link {
   color: white;
   font-family: $font-serif;
+
+  @include media('≥tablet') {
+    font-size: 1.8rem;
+  }
 }
 
 #main-nav .nav__item {
