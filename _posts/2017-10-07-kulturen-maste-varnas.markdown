@@ -2,7 +2,7 @@
 title: Kulturen måste värnas
 date: 2017-10-07 15:34:00 Z
 tags:
-- antirasism
+- kultur
 authors:
 - Elin Bååth
 image: "/uploads/cover_28-04-17.jpg"
