@@ -1,6 +1,8 @@
 ---
 title: Hög tid för krafttag mot nazism och rasism!
 date: 2017-10-04 13:25:00 Z
+tags:
+- antirasim
 authors:
 - Elin Bååth
 - Lisa Tunegård
