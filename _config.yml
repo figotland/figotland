@@ -18,8 +18,8 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    authors:
-    image:
+    authors: 
+    image: 
 - scope:
     path: ''
     type: pages
@@ -30,8 +30,8 @@ defaults:
     type: authors
   values:
     layout: page
-    image:
-    role:
+    image: 
+    role: 
 permalink: pretty
 sass:
   sass_dir: styles/
