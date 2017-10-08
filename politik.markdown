@@ -2,7 +2,7 @@
 title: Politik
 date: 2017-10-04 11:40:00 Z
 assets:
-- asset: "/uploads/verksamhetsberattelse-2015.pdf"
+- file: "/uploads/verksamhetsberattelse-2015.pdf"
   caption: Verksamhetsberättelse 2015
 ---
 
