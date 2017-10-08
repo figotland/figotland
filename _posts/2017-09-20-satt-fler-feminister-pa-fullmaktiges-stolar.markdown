@@ -1,6 +1,6 @@
 ---
 title: Sätt fler feminister på fullmäktiges stolar!
-date: 2017-10-07 15:37:00 Z
+date: 2017-09-20 15:35:00 Z
 tags:
 - feminism
 - demokrati
