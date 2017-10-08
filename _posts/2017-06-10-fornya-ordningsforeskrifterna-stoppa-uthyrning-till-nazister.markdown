@@ -4,7 +4,9 @@ date: 2017-06-10 08:50:00 Z
 tags:
 - demokrati
 authors:
+- Stefan Wesley
 - Elin Bååth
+- Tomas Pettersson
 image: "/uploads/cover_28-04-17.jpg"
 ---
 
