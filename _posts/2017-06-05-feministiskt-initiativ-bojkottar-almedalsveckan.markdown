@@ -1,6 +1,6 @@
 ---
 title: Feministiskt initiativ bojkottar Almedalsveckan
-date: 2017-10-08 09:02:00 Z
+date: 2017-06-05 09:00:00 Z
 image: "/uploads/cover_28-04-17.jpg"
 ---
 
