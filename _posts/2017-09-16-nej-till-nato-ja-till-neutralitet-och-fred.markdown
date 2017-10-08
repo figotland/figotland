@@ -1,11 +1,12 @@
 ---
 title: Nej till NATO! Ja till neutralitet och fred!
-date: 2017-10-07 15:38:00 Z
+date: 2017-09-16 15:40:00 Z
 tags:
 - säkerhetspolitik
 - fred
 authors:
 - Tomas Pettersson
+image: "/uploads/cover_28-04-17.jpg"
 ---
 
 Nu pågår krigssimuleringar bl.a. runt Gotland. Bara på Nato-sidan (som vi helt plötsligt räknas till) är kostnaden för övningen en halv miljard kronor. Precis som i sandlådan svarar Putin med att leka lika illa på sitt håll.
