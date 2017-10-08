@@ -1,6 +1,6 @@
 ---
 title: Hög tid för krafttag mot nazism och rasism!
-date: 2017-10-04 13:25:00 Z
+date: 2017-09-28 13:25:00 Z
 tags:
 - antirasim
 authors:
