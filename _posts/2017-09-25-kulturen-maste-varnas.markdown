@@ -1,6 +1,6 @@
 ---
 title: Kulturen måste värnas
-date: 2017-10-07 15:34:00 Z
+date: 2017-09-25 15:30:00 Z
 tags:
 - kultur
 authors:
