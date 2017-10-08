@@ -1,6 +1,6 @@
 ---
 title: Det är nu det händer - nu gör vi det TILLSAMMANS
-date: 2017-10-08 08:54:00 Z
+date: 2017-10-07 08:50:00 Z
 tags:
 - val2018
 authors: Elin Bååth
