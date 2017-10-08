@@ -1,6 +1,9 @@
 ---
 title: Politik
 date: 2017-10-04 11:40:00 Z
+assets:
+- asset: "/uploads/verksamhetsberattelse-2015.pdf"
+  caption: Verksamhetsberättelse 2015
 ---
 
 Feminism innebär något så enkelt som att omtanke, medkänsla och alla människors lika värde och rättigheter sätts absolut främst. De flesta politiska partier håller med om de här värdena, men låter ändå andra gå före i de verkliga besluten. För det är så det blir när ekonomisk vinst och tillväxt är grundstenarna, och jämställdhet bara yta.
