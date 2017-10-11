@@ -26,6 +26,17 @@ sr.reveal('.wrap', {
   }
 });
 
+sr.reveal('.post__title', {
+  scale: 0,
+  opacity: 1,
+  duration: 0,
+  distance: 0,
+  delay: 0,
+  viewFactor: 0,
+  easing: "cubic-bezier(0.46, 0.51, 0.15, 1.04)",
+
+});
+
 menu.onclick = function() {
   root.classList.toggle('noscroll');
   menu.classList.toggle('active');
@@ -38,17 +49,8 @@ menu.onclick = function() {
 
 var accordion = document.querySelectorAll('.accordion');
 
-expandAccordion = function () {
-  for (var i = 0; i < accordion.length; i++)
-  accordion[i].classList.remove('accordion--is-expanded');
-  this.classList.add('accordion--is-expanded');
-};
-
-for (var i = 0; i < accordion.length; i++)
-  accordion[i].addEventListener('mousedown', expandAccordion);
-
-accordion.onclick = function() {
-  accordion.addEventListener('click', function() {
-    accordion.classList.toggle('accordion--is-expanded');
-  })
+for(i = 0; i < accordion.length; i++) {
+  accordion[i].onclick = function() {
+    this.classList.toggle("accordion--is-expanded");
+  }
 }

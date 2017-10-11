@@ -18,7 +18,7 @@ FAQ:
     * Att du är något av följande:
       - svensk medborgare och folkbokförd i Sverige eller
       - EU-medborgare, eller medborgare i Norge eller Island och är folkbokförd i Sverige eller
-      - medborgare i något annat land och har varit folkbokförd i Sverige i tre år.
+      - medborgare i något annat land och har varit folkbokförd i Sverige i tre år
 - question_text: Vad innebär det att sitta i regionfullmäktige?
   answer_text: "Att sitta i regionfullmäktige för F! innebär att du har möjlighet
     att vara med och skapa verklig förändring för ett mer jämlikt och hållbart samhälle.
@@ -47,7 +47,7 @@ FAQ:
   answer_text: |-
     När alla kandidaturer och nomineringar kommit in kontaktar valberedningen kandidaterna och genomför intervjuer. Utifrån det tar valberedningen fram ett förslag på en lista, baserat på intervjuerna och med ett intersektionellt perspektiv.* Listan till regionfullmäktige kommer slutligen röstas fram på F!:s årsmöte i mars 2018.
 
-    * att skapa en så bred representation som möjligt utifrån olika maktordningar som kön, etnicitet, ålder osv.
+    *att skapa en så bred representation som möjligt utifrån olika maktordningar som kön, etnicitet, ålder osv.
 ---
 
 Tiden har kommit för att nominera till F!:s regionfullmäktigelista i valet 2018. Föreslå någon eller flera som du skulle vilja se som ledamöter i fullmäktige på Gotland – och kandidera gärna själv! När du nominerar någon annan än dig själv måste den personen först vara tillfrågad.

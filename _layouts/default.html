@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="{{ page.lang | default: 'se' }}" class="">
   {% include head.html %}
-  {% include header.html %}
   <body class="">
+    {% include symbol-defs.html %}
+    {% include header.html %}
     <main id="main" role="main">
       {{ content }}
     </main>

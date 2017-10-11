@@ -1,13 +1,27 @@
-// ul {
+ul {
+  margin: 0 0 1.6em 0;
+  padding: 0 3rem;
+}
 
-// }
+li {
 
-// li {
-//   margin: .5rem 0;
+}
 
-//   span {
-//     color: grey;
-//     display: block;
-//     font-size: 1.4rem;
-//   }
-// }
+ul li ul {
+  margin: 0;
+  padding: 0 2rem;
+}
+
+.tag-list {
+  float: left;
+  list-style: none;
+  margin: 1.6em 1rem 0 0;
+  padding: 0;
+
+  &__item {
+    background-color: $primary-pink;
+    color: #fff;
+    display: inline-block;
+    padding: 0 1rem;
+  }
+}
