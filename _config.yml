@@ -21,17 +21,17 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    authors:
-    image:
+    authors: 
+    image: 
 - scope:
     path: ''
     type: events
   values:
     permalink: "/kalender/:title/"
     layout: event
-    starts_at:
-    ends_at:
-    location:
+    starts_at: 
+    ends_at: 
+    location: 
 - scope:
     path: ''
     type: pages
@@ -42,8 +42,8 @@ defaults:
     type: authors
   values:
     layout: page
-    image:
-    role:
+    image: 
+    role: 
 permalink: pretty
 sass:
   sass_dir: styles/
