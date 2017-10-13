@@ -1,5 +1,5 @@
 ---
-title: Politik
+title: Vår politik
 date: 2017-10-04 11:40:00 Z
 assets:
 - file: "/uploads/verksamhetsberattelse-2015.pdf"
