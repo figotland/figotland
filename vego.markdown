@@ -3,8 +3,8 @@ title: Vego i skolan!
 date: 2017-10-13 12:46:00 Z
 FAQ:
 - question_text: Är animalieproduktion verkligen så dåligt för miljön?
-  answer_text: Animalieproduktionen står för cirka 15 procent av världens totala
-    utsläpp av växthusgaser. En vegetarisk måltid har mindre än hälften så stor klimatpåverkan
+  answer_text: Animalieproduktionen står för cirka 15 procent av världens totala utsläpp
+    av växthusgaser. En vegetarisk måltid har mindre än hälften så stor klimatpåverkan
     än kött. Det är inte transporten som är avgörande när det gäller matens klimatpåverkan
     utan hur produktionen går till - djurproduktion är helt enkelt långt mer klimatbelastande
     än grönsaker. Det gäller även soja- och quornprodukter.
