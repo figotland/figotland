@@ -10,7 +10,7 @@ layout: default
         {% if post.image and post.video %}
         <div class="grid__col grid__col--tablet-12 grid__col--desktop-12 grid__col--widescreen-10 grid__col--widescreen-offset-1">
           <div class="post__video">
-            <iframe width="560" height="315" src="{{post.video}}" frameborder="0" allowfullscreen></iframe>
+            {{ post.video }}
           </div>
         </div>
         {% elsif post.image %}

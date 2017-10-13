@@ -30,17 +30,17 @@ sr.reveal('.post--is-preview', {
   duration: 500
 });
 
+sr.reveal('.sr-left', {
+  duration: 500,
+  origin: 'left',
+  scale: 1,
+}, 100);
+
 sr.reveal('.sr-up', {
   scale: 1,
   duration: 500,
   opacity: 0,
 }, 250);
-
-sr.reveal('.sequence', {
-  duration: 500,
-  origin: 'left',
-  scale: 1,
-}, 100);
 
 menu.onclick = function() {
   root.classList.toggle('noscroll');
