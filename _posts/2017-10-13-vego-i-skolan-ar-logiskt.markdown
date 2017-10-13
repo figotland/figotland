@@ -1,6 +1,9 @@
 ---
 title: Vego i skolan är logiskt!
 date: 2017-10-13 12:26:00 Z
+tags:
+- vego
+- skolmat
 authors: Elin Bååth
 video: <iframe width="560" height="315" src="https://www.youtube.com/embed/9Oe-StX1Fvs"
   frameborder="0" allowfullscreen></iframe>
