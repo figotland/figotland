@@ -1,0 +1,23 @@
+<div class="grid__row event__section">
+  <div class="grid__col grid__col--tablet-2 grid__col--tablet-offset-1 event__date">
+    <svg class="icon icon--32x32"><use xlink:href="#icon-date"></use></svg><span><time datetime="{{ event.starts_at }}">{{ event.starts_at | date: "%d/%-m" }}</time></span>
+  </div>
+  <div class="grid__col grid__col--tablet-8 event__content">
+    <h3>{{ event.title }}</h3>
+    {% assign word_count = event.content  | number_of_words %}
+    {% if word_count > 40 %}
+    {{ event.content | truncatewords: 20 }}
+    <p><a class="button button__primary" href="{{ event.url }}"><span>Läs mer</span></a></p>
+    {% else %}
+    {{ event.content }}
+    {% endif %}
+    <ul class="list">
+      {% if event.location %}
+      <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-pin"></use></svg><span>{{ event.location }}</span></li>
+      {% endif %}
+      {% if event.starts_at %}
+      <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-time"></use></svg><span><time>{{ event.starts_at | date: "%R" }}{% if event.ends_at %}-{{ event.ends_at | date: "%R" }}{% endif %}</time></span></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

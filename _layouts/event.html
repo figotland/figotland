@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="grid grid__container">
+  {% if page.title %}
+  <div class="grid__row">
+    <div class="grid__col">
+      <h2 class="page__title">{{ page.title }}</h2>
+    </div>
+  </div>
+  {% endif %}
+
+  {% for event in site.events limit: 10 %}
+    {% include event.html event=post %}
+  {% endfor %}
+</div>

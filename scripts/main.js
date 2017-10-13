@@ -5,7 +5,6 @@ var items = document.querySelectorAll('.nav__item');
 var footer = document.querySelector('#sub-nav');
 var animated = document.querySelectorAll('.animated');
 
-window.sr = ScrollReveal();
 sr.reveal('.wrap', {
   scale: 0,
   opacity: 1,
@@ -26,16 +25,22 @@ sr.reveal('.wrap', {
   }
 });
 
-sr.reveal('.post__title', {
-  scale: 0,
-  opacity: 1,
-  duration: 0,
-  distance: 0,
-  delay: 0,
-  viewFactor: 0,
-  easing: "cubic-bezier(0.46, 0.51, 0.15, 1.04)",
-
+sr.reveal('.post--is-preview', {
+  scale: 1,
+  duration: 500
 });
+
+sr.reveal('.sr-up', {
+  scale: 1,
+  duration: 500,
+  opacity: 0,
+}, 250);
+
+sr.reveal('.sequence', {
+  duration: 500,
+  origin: 'left',
+  scale: 1,
+}, 100);
 
 menu.onclick = function() {
   root.classList.toggle('noscroll');
