@@ -3,6 +3,12 @@ title: Ta fitthälsa på allvar!
 date: 2015-09-06 08:48:00 Z
 tags:
 - hälsa
+authors:
+- Elin Bååth
+- Lisa Tunegård
+- Nina Ruthström
+- Cecilia Herdenstam
+- Margareta Nobell
 ---
 
 Vi som har en livmoder har sedan tidig ålder fått lära oss att det mesta kopplat till vårt organs funktioner gör ont, är krångligt och att detta är något vi inte ska prata om eller ifrågasätta. Vi har fått lära oss att de medicinska behov som är kopplade till att ha en livmoder inte i första hand är samhällets ansvar, utan något vi själva ska ta ansvar — och betala — för.
