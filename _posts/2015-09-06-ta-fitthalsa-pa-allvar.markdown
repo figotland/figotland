@@ -9,6 +9,17 @@ authors:
 - Nina Ruthström
 - Cecilia Herdenstam
 - Margareta Nobell
+guest_authors:
+- Patrik Sten
+- Ella Wolff
+- Clara Pettersson
+- Mathilda Kahlqvist
+- Maria Dahlström
+- Li Grebäck
+- Hilda Serck
+- Andrea von Corswant
+- Linda Sjöström
+- Amanda Forsberg
 ---
 
 Vi som har en livmoder har sedan tidig ålder fått lära oss att det mesta kopplat till vårt organs funktioner gör ont, är krångligt och att detta är något vi inte ska prata om eller ifrågasätta. Vi har fått lära oss att de medicinska behov som är kopplade till att ha en livmoder inte i första hand är samhällets ansvar, utan något vi själva ska ta ansvar — och betala — för.
