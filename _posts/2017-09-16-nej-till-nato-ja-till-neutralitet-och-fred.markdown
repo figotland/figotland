@@ -6,7 +6,7 @@ tags:
 - fred
 authors:
 - Tomas Pettersson
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_16-09-17.jpg"
 ---
 
 Nu pågår krigssimuleringar bl.a. runt Gotland. Bara på Nato-sidan (som vi helt plötsligt räknas till) är kostnaden för övningen en halv miljard kronor. Precis som i sandlådan svarar Putin med att leka lika illa på sitt håll.
