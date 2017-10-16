@@ -14,7 +14,7 @@ Rasistiska krafter vinner allt mer mark i Europa, både i parlament och på gato
 
 Därför lämnade Feministiskt initiativs fullmäktigegrupp idag in en interpellation (formell fråga) till regionfullmäktige:
 
-*Hur ser Regionstyrelsen på behovet av ett strukturerat antirasistiskt arbete?
-*Hur ser Region Gotlands antirasistiska arbete för närvarande ut?
+* Hur ser Regionstyrelsen på behovet av ett strukturerat antirasistiskt arbete?
+* Hur ser Region Gotlands antirasistiska arbete för närvarande ut?
 
 Regionstyrelsens ordförande har på sig till nästa fullmäktige att förbereda ett svar.

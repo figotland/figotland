@@ -19,6 +19,9 @@ layout: default
             <div class="overlay"></div>
             <div class="reveal"></div>
             <img class="post__image" src="{{post.image}}" alt="{{post.title}}">
+            {% if post.image_caption %}
+            <div class="image-caption">{{ post.image_caption }}</div>
+            {% endif %}
           </div>
         </div>
         {% endif %}
@@ -67,7 +70,16 @@ layout: default
     <footer class="post__footer">
       <div class="grid__row">
         <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-4 grid__col--desktop-6 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
-          {% if post.authors %}
+          {% if post.authors and post.guest_authors %}
+          <ul>
+            {% for post_author in post.authors %}
+            <li><span class="post__author">{{ post_author }}</span>
+            {% endfor %}
+            {% for post_author in post.guest_authors %}
+            <li><span class="post__author">{{ post_author }}</span></li>
+            {% endfor %}
+          </ul>
+          {% elsif post.authors %}
           <ul>
             {% for post_author in post.authors %}
             {% assign post_author_downcase = post_author | downcase %}
@@ -77,6 +89,12 @@ layout: default
             <li><span class="post__author">{{ post_author }}</span> — {{ site_author.role }}</li>
             {% endif %}
             {% endfor %}
+            {% endfor %}
+          </ul>
+          {% elsif post.guest_authors %}
+          <ul>
+            {% for post_author in post.guest_authors %}
+            <li><span class="post__author">{{ post_author }}</span></li>
             {% endfor %}
           </ul>
           {% endif %}
