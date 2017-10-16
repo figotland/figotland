@@ -10,7 +10,6 @@ layout: default
     </div>
   </div>
   {% endif %}
-
   {% assign sorted_events = site.events | sort: "starts_at" %}
   {% for event in sorted_events limit: 10 %}
     {% include event.html event=post %}

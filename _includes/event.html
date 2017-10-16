@@ -1,6 +1,10 @@
 <div class="grid__row event__section sr-up">
   <div class="grid__col grid__col--tablet-2 grid__col--tablet-offset-1 event__date">
+    {% if event.starts_at %}
     <svg class="icon icon--32x32"><use xlink:href="#icon-date"></use></svg><span><time datetime="{{ event.starts_at }}">{{ event.starts_at | date: "%d/%-m" }}</time></span>
+    {% elsif event.ends_at %}
+    <svg class="icon icon--32x32"><use xlink:href="#icon-date"></use></svg><span><time datetime="{{ event.ends_at }}">{{ event.ends_at | date: "%d/%-m" }}</time></span>
+    {% endif %}
   </div>
   <div class="grid__col grid__col--tablet-8 event__content">
     <h3>{{ event.title }}</h3>
@@ -17,6 +21,8 @@
       {% endif %}
       {% if event.starts_at %}
       <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-time"></use></svg><span><time>{{ event.starts_at | date: "%R" }}{% if event.ends_at %}-{{ event.ends_at | date: "%R" }}{% endif %}</time></span></li>
+      {% elsif event.ends_at %}
+      <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-time"></use></svg><span><time>{{ event.ends_at | date: "%R" }}</time></span></li>
       {% endif %}
     </ul>
   </div>
