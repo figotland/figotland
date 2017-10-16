@@ -7,7 +7,7 @@ authors:
 - Stefan Wesley
 - Elin Bååth
 - Tomas Pettersson
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_08-06-17.jpg"
 ---
 
 I diskussionen kring NMR:s närvaro på Almedalsveckan lyfts gång på gång argumentet att ärendet måste behandlas som alla andra — annars hotas demokratin. Men efter Andra världskriget ansåg FN-länderna att nazistiska organisationer inte kan behandlas som andra – det är helt enkelt för farligt. 1965 antog FN därför en konvention (CERD) med stöd och krav på medlemsländerna att införa nationella förbud mot nazistisk organisering. Sverige får löpande kritik från konventionens expertråd för att så ännu inte skett.
