@@ -8,7 +8,7 @@ authors:
 - Elin Bååth
 - Margareta Nobell
 - Gerd Holmgren
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_13-09-17.jpg"
 ---
 
 Så är förverkligandet av Nationalpark Bästeträsk äntligen lite närmare! Äntligen ser den unika naturen, arterna, berggrunden och vattnet ut att få det skydd som vi så länge hoppats på och kämpat för.
