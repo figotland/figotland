@@ -4,7 +4,7 @@ date: 2017-10-07 08:50:00 Z
 tags:
 - val2018
 authors: Elin Bååth
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_07-10-17.jpg"
 ---
 
 Från och med nästa mandatperiod kommer Feministiskt initiativ verkligen kunna göra skäl för vårt slagord ”vi gör det tillsammans”. För hur mycket vi än kämpat tillsammans under de senaste tre åren, är det ändå ensamt att vara den enda rosa rösten av 71 i fullmäktige.
