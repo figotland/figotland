@@ -5,7 +5,8 @@ tags:
 - normkritik
 authors:
 - Elin Bååth
-- Elliott Hammander
+guest_authors:
+- Elliot Hammander — Unga Feminister Gotland
 ---
 
 Skolan måste vara en trygg plats för alla barn och studerande. Trygghet är själva grunden för att någon form av lärande ska kunna äga rum. Men hur skapas trygghet i skolan?
