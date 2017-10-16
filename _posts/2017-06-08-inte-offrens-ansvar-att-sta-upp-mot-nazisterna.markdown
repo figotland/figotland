@@ -7,7 +7,7 @@ authors:
 - Stefan Wesley
 - Elin Bååth
 - Tomas Pettersson
-image: "/uploads/cover_08-06-17-e96348.jpg"
+image: "/uploads/cover_05-06-17.jpg"
 ---
 
 När nazisterna får närvara i Almedalen tvingas andra att frånvara. Kvinnojourernas riksförbund kommer nu inte. Mångfaldsparaden tvingas flytta på sig av säkerhetsskäl (och ändå kan polisen inte garantera vår säkerhet). Företrädare för Funkisam skriver om sina medlemmars rädsla att närvara. Asylboenden övervägs att evakueras när NMR är på plats.
