@@ -6,9 +6,11 @@ tags:
 authors:
 - Lisa Tunegård
 - Elin Bååth
-- Mio Ribohn
 - Stefan Wesley
 - Emma Jernberg
+- 
+guest_authors:
+- Mio Ribohn
 ---
 
 Gotlandsmoderaternas senaste utspel om att dra in det offentliga stödet till ett natthärbärge för utsatta EU-medborgare är grundlöst och populistiskt. Det finns inga vinster att göra på att upphöra med detta härbärge. Tvärt om visar det sig gång på gång runt om i Sverige att det är betydligt dyrare med olagliga bosättningar. För olagliga bosättningar blir det. De människor som kommer till Sverige gör det för att de inte har något annat val. De kommer stanna med härbärge eller utan. Det innebär heller inget lagbrott att erbjuda stöd åt utsatta EU-medborgare — det har förvaltningsdomstolen i Linköping slagit fast.
