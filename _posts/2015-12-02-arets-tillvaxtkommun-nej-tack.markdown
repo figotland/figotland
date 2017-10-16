@@ -5,9 +5,11 @@ tags:
 - ekonomi
 authors:
 - Tomas Pettersson
-- Oscar Larsson
+- 
 - Stefan Wesley
 - Margareta Nobell
+guest_authors:
+- Oscar Larsson
 ---
 
 Region Gotland vill bli Årets tillväxtkommun 2018. Låter det bra? Det tycker inte Feministiskt initiativ, och handen på hjärtat, vad innebär egentligen en allt högre tillväxt? Kan vi verkligen fortsätta att sträva efter en evig tillväxt på en planet med ändliga resurser?
