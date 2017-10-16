@@ -5,7 +5,7 @@ tags:
 - kultur
 authors:
 - Elin Bååth
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_25-09-17.jpg"
 ---
 
 Idag fattades beslut om hur den nya organisationen för det som tidigare varit kultur- och fritidsförvaltningen ska se ut. Förslaget till regionfullmäktige innebär att kultur- och fritidsfrågorna placeras direkt under regionstyrelsen, istället för i en egen förvaltning. Det är en bra idé eftersom dessa frågor, som är så viktiga för invånarnas utveckling och välmående, då kopplas närmare det övriga regionala strategiarbetet.
