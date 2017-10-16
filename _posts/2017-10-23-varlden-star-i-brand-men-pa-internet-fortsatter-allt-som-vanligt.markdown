@@ -3,6 +3,9 @@ title: Världen står i brand men på internet fortsätter allt som vanligt
 date: 2017-10-23 08:53:00 Z
 tags:
 - antirasim
+guest_authors:
+- Mathilda Kahlqvist — ersättare för F! i fullmäktige och hälso- och sjukvårdsnämnden,
+  samt styrelsemedlem i Unga feminister Gotland
 ---
 
 Under en vecka har det rapporterats om fyra asylboenden och hem för ensamkommande flyktingbarn som har satts i brand. Igår gick en beväpnad man in på en skola i Trollhättan och knivhögg fyra personer varav två dog. Polisen har bekräftat att mördaren hade rasistiska och nazistiska intressen.
