@@ -8,6 +8,8 @@ assets:
   caption: Verksamhetsberättelse 2015
 - file: https://feministisktinitiativ.se/politik/
   caption: Vårt nationella partiprogram
+- file: http://figotland.se/vego/
+  caption: Vår kampanj "Vego i skolan"
 ---
 
 Feminism innebär något så enkelt som att omtanke, medkänsla och alla människors lika värde och rättigheter sätts absolut främst. De flesta politiska partier håller med om de här värdena, men låter ändå andra gå före i de verkliga besluten. För det är så det blir när ekonomisk vinst och tillväxt är grundstenarna, och jämställdhet bara yta.
