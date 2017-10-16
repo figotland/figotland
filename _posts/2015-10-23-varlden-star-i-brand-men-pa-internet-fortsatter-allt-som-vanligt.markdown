@@ -1,6 +1,6 @@
 ---
 title: Världen står i brand men på internet fortsätter allt som vanligt
-date: 2017-10-23 08:53:00 Z
+date: 2015-10-23 08:53:00 Z
 tags:
 - antirasim
 guest_authors:
