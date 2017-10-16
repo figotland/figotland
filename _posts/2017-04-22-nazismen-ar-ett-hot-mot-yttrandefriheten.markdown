@@ -9,7 +9,9 @@ authors:
 - Stefan Wesley
 - Cecilia Herdenstam
 - Emma Jernberg
-- 
+- Annika Wassén
+- Margareta Nobell
+- Gerd Holmgren
 ---
 
 För ett par veckor sedan brann det i Vikarbyn i Rättvik. Det var hemma hos systrarna Kallur och det som brann var en regnbågsflagga. Strax efter dådet gick Nordiska motståndsrörelsen (NMR) ut och tog på sig ansvaret. Utan smygande eller hemlighetsmakeri. För det är så NMR jobbar — med våld och hot.
