@@ -3,7 +3,8 @@ title: Säkerhet för alla
 date: 2015-11-23 08:55:00 Z
 tags:
 - terrorism
-authors: Mio Ribohn
+guest_authors:
+- Mio Ribohn
 ---
 
 Så vad tror ni kommer hända efter att terrorhotsnivån höjts?
