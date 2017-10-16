@@ -1,6 +1,6 @@
 ---
 title: Vego i skolan är logiskt!
-date: 2017-10-13 12:26:00 Z
+date: 2017-02-21 12:26:00 Z
 tags:
 - vego
 - skolmat
