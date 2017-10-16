@@ -1,7 +1,7 @@
 ---
 title: Deadline för att kandidera till regionfullmäktige
 date: 2017-10-16 11:41:00 Z
-starts_at: 2017-01-31 00:00:00 Z
+starts_at: 2018-01-31 00:00:00 Z
 ends_at: 2018-01-31 23:59:00 Z
 ---
 
