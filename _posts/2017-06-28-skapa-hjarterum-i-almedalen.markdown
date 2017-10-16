@@ -1,7 +1,7 @@
 ---
 title: Skapa hjärterum i Almedalen
 date: 2017-06-28 08:00:00 Z
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_28-06-17.jpg"
 ---
 
 Den som letar efter F! på årets Almedalsvecka hittar oss inte. Där vi skulle ha varit finns istället tomma, rosa skor med texten HJÄRTERUM. För när nazisterna tillåts närvara tvingas andra frånvara.
