@@ -18,8 +18,9 @@ ul li ul {
   padding: 0;
 
   &__item {
+    display: inline-flex;
     font-size: 1.4rem;
-    margin: 1rem 0;
+    margin: 1rem 1rem 1rem 0;
   }
 }
 
