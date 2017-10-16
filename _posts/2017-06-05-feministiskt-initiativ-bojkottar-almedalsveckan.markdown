@@ -1,7 +1,7 @@
 ---
 title: Feministiskt initiativ bojkottar Almedalsveckan
 date: 2017-06-05 09:00:00 Z
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_05-06-17-592723.jpg"
 ---
 
 Feministiskt initiativ kommer att bojkotta Almedalsveckan om inte beslutet att upplåta plats och utrymme åt den nazistiska organisationen Nordiska motståndsrörelsen ändras.
