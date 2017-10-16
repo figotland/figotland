@@ -6,7 +6,7 @@ tags:
 - demokrati
 authors:
 - Elin Bååth
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_20-09-17.jpg"
 ---
 
 Inför valet 2014 var det många som övervägde att lägga sin röst på Feministiskt initiativ, men fick höra att det skulle vara ”en bortkastad röst”. Att sannolikheten att partiet skulle få mandat var för liten, och att — om vi skulle få mandat — ändå är för små, för oerfarna, för att kunna påverka.
