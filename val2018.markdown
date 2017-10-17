@@ -1,7 +1,6 @@
 ---
 title: Val 2018
 date: 2017-10-04 11:42:00 Z
-layout: faq
 FAQ:
 - question_text: Vad innebär det att kandidera?
   answer_text: 'F!:s lista till regionfullmäktige kommer fastställas på årsmötet i
@@ -48,6 +47,9 @@ FAQ:
     När alla kandidaturer och nomineringar kommit in kontaktar valberedningen kandidaterna och genomför intervjuer. Utifrån det tar valberedningen fram ett förslag på en lista, baserat på intervjuerna och med ett intersektionellt perspektiv.* Listan till regionfullmäktige kommer slutligen röstas fram på F!:s årsmöte i mars 2018.
 
     *att skapa en så bred representation som möjligt utifrån olika maktordningar som kön, etnicitet, ålder osv.
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/hUgtBMosU_w"
+  frameborder="0" allowfullscreen></iframe>
+layout: faq
 ---
 
 Tiden har kommit för att nominera till F!:s regionfullmäktigelista i valet 2018. Föreslå någon eller flera som du skulle vilja se som ledamöter i fullmäktige på Gotland – och kandidera gärna själv! När du nominerar någon annan än dig själv måste den personen först vara tillfrågad.
