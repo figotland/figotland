@@ -7,6 +7,7 @@ location: F!lialen, Söderväg 1A
 accessibility:
   has_audio: true
   has_wheelchair: true
+  has_toilet: true
 layout: page
 ---
 
