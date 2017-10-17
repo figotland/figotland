@@ -3,7 +3,7 @@
     <ul>
       {% for asset in page.assets %}
       {% if asset.file contains 'pdf' %}
-      <li><svg class="icon"><use xlink:href="#icon-document"></use></svg><a class="sidebar__link" href="{{asset.file}}" target="_blank">{{asset.caption}}</a></li>
+      <li><svg class="icon"><use xlink:href="#icon-attachment"></use></svg><a class="sidebar__link" href="{{asset.file}}" target="_blank">{{asset.caption}}</a></li>
       {% elsif asset.file contains 'http' %}
       <li><svg class="icon"><use xlink:href="#icon-link"></use></svg><a class="sidebar__link" href="{{asset.file}}" target="_blank">{{asset.caption}}</a></li>
       {% else %}
