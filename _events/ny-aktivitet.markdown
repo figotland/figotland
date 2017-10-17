@@ -4,6 +4,9 @@ date: 2017-10-11 11:41:00 Z
 starts_at: 2017-10-13 18:00:00 Z
 ends_at: 2017-10-13 20:00:00 Z
 location: F!lialen, Söderväg 1A
+accessibility:
+  has_audio: true
+  has_wheelchair: true
 layout: page
 ---
 
