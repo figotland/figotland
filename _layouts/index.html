@@ -2,4 +2,43 @@
 layout: default
 ---
 
-{{content}}
+<div class="grid grid__container">
+  <div class="grid__row">
+    <div class="tile is-vertical">
+      <div class="tile">
+      {% for post in site.posts limit: 3 %}
+        {% if forloop.first == true %}
+        <div class="tile is-parent">
+          <div class="card pung sr-up" style="background-color: yellow">
+            <div class="card__cover">
+              <img src="{{post.image}}">
+            </div>
+            <h3>{{post.title}}</h3>
+          </div>
+        </div>
+        {% elsif forloop.last == true %}
+        <div class="tile is-child">
+          <div class="card sr-up" style="background-color: green">
+            <div class="card__cover">
+              <!-- <img src="{{post.image}}"> -->
+            </div>
+            <h4>{{post.title}}</h4>
+          </div>
+        </div>
+      </div>
+        {% else %}
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child">
+            <div class="card sr-up" style="background-color: red">
+              <div class="card__cover">
+                <!-- <img src="{{post.image}}"> -->
+              </div>
+              <h4>{{post.title}}</h4>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
