@@ -5,6 +5,17 @@
     line-height: 1.2;
   }
 
+  &__video {
+    margin-top: 1.5rem;
+    padding-bottom: 56.25%;
+    height: 0;
+
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
   &__content {
     p a:not(.button) {
       border-bottom: 2px solid $primary-pink;

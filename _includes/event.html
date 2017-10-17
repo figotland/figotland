@@ -24,11 +24,14 @@
       {% elsif event.ends_at %}
       <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-time"></use></svg><span><time>{{ event.ends_at | date: "%R" }}</time></span></li>
       {% endif %}
+      {% if event.accessibility.has_wheelchair %}
+      <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-wheelchair"></use></svg><span>Tillgängligt för rullstol</span></li>
+      {% endif %}
+      {% if event.accessibility.has_toilet %}
+      <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-wc"></use></svg><span>Könsneutrala toaletter</span></li>
+      {% endif %}
       {% if event.accessibility.has_audio %}
       <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-headset"></use></svg><span>Hörslinga</span></li>
-      {% endif %}
-      {% if event.accessibility.has_wheelchair %}
-      <li class="list__item"><svg class="icon icon--24x24"><use xlink:href="#icon-wheelchair"></use></svg><span>Rullstolsanpassad</span></li>
       {% endif %}
     </ul>
   </div>
