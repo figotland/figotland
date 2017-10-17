@@ -34,9 +34,10 @@ defaults:
     starts_at:
     ends_at:
     location:
-    has_wheelchair:
-    has_toilet:
-    has_audio:
+    accessibility:
+      has_wheelchair:
+      has_toilet:
+      has_audio:
 - scope:
     path: ''
     type: pages
