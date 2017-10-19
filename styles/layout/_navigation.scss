@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   position: relative;
-
+// use one
   ul {
     list-style: none;
     margin: 0;
@@ -23,12 +23,41 @@
 .nav__link {
   color: white;
   font-family: $font-serif;
+  position: relative;
 
   @include media('≥tablet') {
     font-size: 1.8rem;
   }
-}
 
+  &:before {
+    background-color: pink;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1rem;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+    transform: scaleX(0);
+    transform-origin: 0 5px;
+    transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover {
+    &:before {
+      transform: none;
+    }
+  }
+
+  span {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+}
+// fix
 #main-nav .nav__item {
   @for $i from 1 through 9 {
     &:nth-child(#{$i}) {

@@ -25,9 +25,15 @@ ul li ul {
     @include media('>=tablet') {
       display: inline-flex;
     }
+
+    span {
+      color: #424242;
+      font-family: $font-sans-serif;
+    }
   }
 }
 
+// move to post
 .tag-list {
   float: left;
   list-style: none;

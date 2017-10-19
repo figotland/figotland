@@ -1,126 +1,128 @@
-.tile {
-  align-items: stretch;
-  display: flex;
-  flex-basis: 0;
-  flex-grow: 1;
-  flex-shrink: 1;
-  min-height: min-content;
-}
-
-.is-vertical {
-    flex-direction: column;
-  }
-
-.card {
-  cursor: pointer;
-  width: 100%;
-}
-
-.pung {
-  // min-height: 50vh;
-}
-
-.tile.is-vertical > .tile.is-child:not(:last-child) {
-  margin-bottom: 3rem;
-}
-
-// .card {
-//   background-color: red;
-//   display: flex;
-//   flex-direction: column;
-//   height: 100%;
-//   max-height: 25%;
-//   position: relative;
-//   overflow: hidden;
-// }
-
-// .grid__row--column {
-//   flex-flow: column;
-//   flex: 1;
-//   padding: 0;
-// }
-
-// .kuk {
-//   width: 100%;
-// }
-// // .card {
-// //   display: flex;
-// //   flex-direction: column;
-// //   margin-bottom: .5rem;
-
-// //   @include media('>=tablet') {
-// //     margin-bottom: 1.5rem;
-// //   }
-
-// //   &__content {
-// //     left: 1rem;
-// //     position: absolute;
-// //     top: .5rem;
-// //   }
-
-// //   &__meta {
-// //     color: grey;
-// //     justify-items: space-around;
-
-// //     &:last-of-type {
-// //       margin-bottom: 2.5rem;
-
-// //       @include media('>=tablet') {
-// //         margin-bottom: 0;
-// //       }
-// //     }
-// //   }
-
-// //   &__footer{
-// //     display: flex;
-// //     flex: auto;
-// //     flex-direction: column;
-// //     justify-content: flex-end;
-// //   }
-
-// //   &--square {
-// //     background-position: center;
-// //     background-repeat: no-repeat;
-// //     background-size: cover;
-// //     padding-top: 100%;
-// //     position: relative;
-// //     width: 100%;
-// //   }
-// // }
-
-// .card ul {
-//   margin: 0 0.25rem;
-//   padding: 1.5rem 2rem;
-// }
-
-// .box {
-//   background-color: #fff;
-//   border-bottom: 1px solid #dcdcdc;
-//   // border-radius: 5px;
-//   // box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-//   padding: 1rem 1rem 2.5rem 1rem;
-// }
-
-// .card {
-//   align-items: flex-start;
-//   display: flex;
-// }
-
-// .card-left {
-//   flex-basis: auto;
-//   flex-grow: 0;
-//   flex-shrink: 0;
-//   margin-right: 1.5rem;
-//   margin-top: 1rem;
-// }
-
-// .card__content {
-//   flex-basis: auto;
+// .tile {
+//   align-items: stretch;
+//   display: block;
+//   flex-basis: 0;
 //   flex-grow: 1;
 //   flex-shrink: 1;
+//   min-height: min-content;
+
+//   @include media("≥tablet") {
+//     display: flex;
+//   }
 // }
 
-// .card__title {
-//   font-size: 2.6rem;
-//   margin-bottom: .5rem;
+// .is-vertical {
+//   flex-direction: column;
+// }
+
+// .is-parent {
+//   padding: 0.75em;
+// }
+
+.card {
+  border-bottom: 1px solid;
+  border-color: #dcdcdc;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+
+  &:hover {
+    .card__link:after {
+      transform: none;
+      transition: transform 0.65s 0.48s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card__link .underline {
+      transform: translateX(120%);
+      transition: transform 0.65s 0s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &__cover {
+
+  }
+
+  &__content {
+    font-family: 'Roboto', sans-serif;
+    padding: 0.75em;
+
+    &--big {
+      padding: 0.75em 0.75em 3em;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    padding-bottom: 1.5rem;
+    padding-top: 1.4rem;
+    position: relative;
+    overflow-x: hidden;
+
+    &:after {
+      background-color: pink;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 1rem;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      z-index: 1;
+
+      transform: scaleX(0);
+      transform-origin: 0 1px;
+      transition: transform 0.65s 0s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:hover {
+
+      &:after {
+        transform: none;
+        transition: transform 0.65s 0.48s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .underline {
+        transform: translateX(120%);
+        transition: transform 0.65s 0s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+
+    span {
+      display: inline-block;
+      position: relative;
+      z-index: 3;
+    }
+
+    .underline {
+      background-color: pink;
+      bottom: 0;
+      display: inline-block;
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 2;
+
+      transition: transform 0.65s 0.48s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &__time {
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  &__meta {
+    color: #888;
+    font-family: $font-sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+  }
+}
+
+// .tile.is-vertical > .tile.is-child:not(:last-child) {
+//   margin-bottom: 3rem;
 // }

@@ -71,12 +71,3 @@
     transition-duration: 480ms
   }
 }
-
-@keyframes overflowVisible {
-  0% {
-    overflow: hidden;
-  }
-  100% {
-    overflow: visible;
-  }
-}

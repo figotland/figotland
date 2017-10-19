@@ -1,44 +1,100 @@
 ---
 layout: default
 ---
+<div class="grid grid__container">
+<div class="hero">
+  <div class="hero__content">
+    <!-- <div class="grid grid__container"> -->
+      <div class="grid__row">
+        <div class="grid__col">
+          <h1>kuken</h1>
+        </div>
+      </div>
+    <!-- </div> -->
+  </div>
+</div>
+</div>
 
 <div class="grid grid__container">
-  <div class="grid__row">
+  <div class="grid__row grid__row--no-gutters">
     <div class="tile is-vertical">
       <div class="tile">
       {% for post in site.posts limit: 3 %}
         {% if forloop.first == true %}
         <div class="tile is-parent">
-          <div class="card pung sr-up" style="background-color: yellow">
-            <div class="card__cover">
-              <img src="{{post.image}}">
+          <div class="card sr-up">
+            <a class="card__cover" href="{{post.url}}">
+              <img src="uploads/cover_16-09-17.jpg">
+            </a>
+            <div class="card__content card__content--big">
+              {% if post.date %}
+              <small class="card__meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html %}</time>
+              </small>
+              {% endif %}
+              <h3 class="post__title"><a href="{{post.url}}">{{post.title}}</a></h3>
+              <a class="card__link" href="{{post.url}}"><span>Läs mer</span><div class="underline"></div></a>
             </div>
-            <h3>{{post.title}}</h3>
           </div>
         </div>
         {% elsif forloop.last == true %}
         <div class="tile is-child">
-          <div class="card sr-up" style="background-color: green">
-            <div class="card__cover">
-              <!-- <img src="{{post.image}}"> -->
+          <div class="card sr-up">
+            <div class="card__cover card__cover--is-bg">
             </div>
-            <h4>{{post.title}}</h4>
+            <div class="card__content">
+              {% if post.date %}
+              <small class="card__meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html %}</time>
+              </small>
+              {% endif %}
+              <h3 class="post__title"><a href="{{post.url}}">{{post.title}}</a></h3>
+              <div class="link-wrap">
+                <a class="card__link" href="{{post.url}}"><span>Läs mer</span><div class="underline"></div></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
         {% else %}
         <div class="tile is-parent is-vertical">
           <div class="tile is-child">
-            <div class="card sr-up" style="background-color: red">
+            <div class="card sr-up">
               <div class="card__cover">
-                <!-- <img src="{{post.image}}"> -->
               </div>
-              <h4>{{post.title}}</h4>
+              <div class="card__content card__content--big">
+                {% if post.date %}
+                <small class="card__meta">
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html %}</time>
+                </small>
+                {% endif %}
+                <h3 class="post__title"><a href="{{post.url}}">{{post.title}}</a></h3>
+                <a class="card__link" href="{{post.url}}"><span>Läs mer</span><div class="underline"></div></a>
+              </div>
             </div>
           </div>
         {% endif %}
       {% endfor %}
       </div>
+    </div>
+  </div>
+  <div class="grid__row grid__row--no-gutters">
+    {% assign sorted_events = site.events | sort: "starts_at" %}
+    <div class="tile">
+      {% for event in sorted_events limit: 4 %}
+      <div class="tile is-parent sr-left">
+        <div class="card">
+          <div class="card__content">
+            {% if event.starts_at %}
+            <div class="card__time">
+              <svg class="icon icon--24x24"><use xlink:href="#icon-date"></use></svg><span>{{ event.starts_at | date: "%d/%-m" }}</span>
+            </div>
+            {% endif %}
+            {{event.title}}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
