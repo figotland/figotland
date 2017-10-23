@@ -15,12 +15,12 @@ layout: default
         </div>
         {% elsif post.image %}
         <div class="grid__col grid__col--tablet-12 grid__col--desktop-12 grid__col--widescreen-10 grid__col--widescreen-offset-1">
-          <div class="wrap">
-            <div class="overlay"></div>
-            <div class="reveal"></div>
+          <div class="image-wrap">
+            <div class="image-overlay"></div>
+            <div class="image-reveal"></div>
             <img class="post__image" src="{{post.image}}" alt="{{post.title}}">
             {% if post.image_caption %}
-            <div class="image-caption">{{ post.image_caption }}</div>
+            <div class="post__image-caption">{{ post.image_caption }}</div>
             {% endif %}
           </div>
         </div>
@@ -47,14 +47,6 @@ layout: default
     </header>
     <div class="post__content sr-up">
       <div class="grid__row">
-        <!-- <div class="grid__col grid__col--tablet-4 grid__col--desktop-7 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
-          <div class="post__share">
-            <a href="">Tillbaka</a>
-            <svg class="icon icon--24x24"><use xlink:href="#icon-share"></use></svg><span>Facebook</span>
-            <svg class="icon icon--24x24"><use xlink:href="#icon-share"></use></svg><span>Twitter</span>
-            <svg class="icon icon--24x24"><use xlink:href="#icon-link"></use></svg><span>Permalink</span>
-          </div>
-        </div> -->
         <div class="grid__col grid__col--tablet-8  grid__col--desktop-7 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
           {% if post.tags %}
           <ul class="tag-list">

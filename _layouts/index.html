@@ -3,12 +3,13 @@ layout: default
 ---
 
 <div class="grid grid__container">
-<div class="hero">
+  <div class="hero">
   <div class="hero__content">
     <!-- <div class="grid grid__container"> -->
-      <div class="grid__row">
-        <div class="grid__col">
-          <h1>kuken</h1>
+      <div class="grid__row grid__row--no-gutters">
+        <div class="grid__col grid__col--tablet-8 grid__col--desktop-10 grid__col--widescreen-8">
+          <h1 class="hero__title">Vi kämpar för en jämställd, jämlik och ekologiskt hållbar ö och värld.</h1>
+            <a class="card__link" href="{{post.url}}"><span>Läs mer om oss</span><div class="underline"></div></a>
         </div>
       </div>
     <!-- </div> -->
@@ -16,13 +17,14 @@ layout: default
 </div>
 </div>
 
+<div class="bg" style="background-color: #fafafa">
 <div class="grid grid__container">
   <div class="grid__row grid__row--no-gutters">
-    <div class="tile is-vertical">
+    <div class="tile tile--is-vertical">
       <div class="tile">
       {% for post in site.posts limit: 3 %}
         {% if forloop.first == true %}
-        <div class="tile is-parent">
+        <div class="tile tile--is-parent">
           <div class="card sr-up">
             <a class="card__cover" href="{{post.url}}">
               <img src="uploads/cover_16-09-17.jpg">
@@ -39,7 +41,7 @@ layout: default
           </div>
         </div>
         {% elsif forloop.last == true %}
-        <div class="tile is-child">
+        <div class="tile tile--is-child">
           <div class="card sr-up">
             <div class="card__cover card__cover--is-bg">
             </div>
@@ -58,8 +60,8 @@ layout: default
         </div>
       </div>
         {% else %}
-        <div class="tile is-parent is-vertical">
-          <div class="tile is-child">
+        <div class="tile tile--is-parent tile--is-vertical">
+          <div class="tile tile--is-child">
             <div class="card sr-up">
               <div class="card__cover">
               </div>
@@ -83,7 +85,7 @@ layout: default
     {% assign sorted_events = site.events | sort: "starts_at" %}
     <div class="tile">
       {% for event in sorted_events limit: 4 %}
-      <div class="tile is-parent sr-left">
+      <div class="tile tile--is-parent sr-left">
         <div class="card">
           <div class="card__content">
             {% if event.starts_at %}
@@ -98,4 +100,5 @@ layout: default
       {% endfor %}
     </div>
   </div>
+</div>
 </div>

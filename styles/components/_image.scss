@@ -4,8 +4,6 @@ img {
   max-width: 100%;
 }
 
-figure { margin: 0; }
-
 .image {
   display: block;
   position: relative;
@@ -13,5 +11,52 @@ figure { margin: 0; }
   &--92x92 {
     height: 92px;
     width: 92px;
+  }
+}
+
+.image-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-active {
+  transition: transform 0s cubic-bezier(0.46, 0.51, 0.15, 1.04) 0s, opacity 0s cubic-bezier(0.46, 0.51, 0.15, 1.04) 0s;
+}
+
+.image-overlay {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.image-reveal {
+  background: pink;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.image-wrap.image-active {
+  .image-overlay {
+    animation-delay: .2s;
+    animation-duration: .4s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(.49, .01, .7, .82);
+    animation-name: kuken;
+  }
+
+  .image-reveal {
+    animation-delay: .3s;
+    animation-duration: .4s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(.49, .01, .7, .82);
+    animation-name: kuken;
   }
 }

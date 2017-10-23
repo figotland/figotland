@@ -5,7 +5,7 @@ var items = document.querySelectorAll('.nav__item');
 var footer = document.querySelector('#sub-nav');
 var animated = document.querySelectorAll('.animated');
 
-sr.reveal('.wrap', {
+sr.reveal('.image-wrap', {
   scale: 0,
   opacity: 1,
   duration: 0,
@@ -16,10 +16,10 @@ sr.reveal('.wrap', {
   beforeReveal: function(domEl) {
     var $img = $(domEl).find("img");
     if ($img.prop("complete")) {
-      $(domEl).addClass("aktiv")
+      $(domEl).addClass("image-active")
     } else {
       $img.on("load", function(e) {
-        $(domEl).addClass("aktiv")
+        $(domEl).addClass("image-active")
       })
     }
   }

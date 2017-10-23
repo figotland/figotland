@@ -1,15 +1,17 @@
 .hero {
+  padding: 1.6em 0;
 
-    // background: linear-gradient(-80deg, purple 10%, blue 10%, blue 18%, green 18%, green 26%, yellow 26%, yellow 34%, orange 34%, orange 42%, red 42%, red, 50%, $primary-pink 50%);
-    color: #fff;
-  margin: 1rem;
-  padding: 9rem 1.5rem;
-  // width: 95%;
-  // transform: skew(10deg);
+  &__title {
+    font-size: 3.6rem;
+  }
 
   &__content {
-    color: #fff; h1 {
-      color: #fff;
+    @include media('>=tablet') {
+      padding: 0.75em;
+    }
+
+    @include media('>=desktop') {
+      padding: 5em 0.75em;
     }
   }
 }
