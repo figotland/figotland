@@ -2,3 +2,35 @@
   color: inherit;
   text-decoration: none;
 }
+
+.link-highlight {
+  position: relative;
+
+  &:before {
+    background-color: $secondary-pink;;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: .5em;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+    transform: scaleX(0);
+    transform-origin: 0;
+    transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover {
+    &:before {
+      transform: none;
+    }
+  }
+
+  span {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+}

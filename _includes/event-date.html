@@ -1,0 +1,25 @@
+{% assign month = event.starts_at | date: "%-m" %}
+
+{% case month %}
+  {% when '1' %}JAN
+  {% when '2' %}FEB
+  {% when '3' %}MARS
+  {% when '4' %}APR
+  {% when '5' %}MAJ
+  {% when '6' %}JUNI
+  {% when '7' %}JULI
+  {% when '8' %}AUG
+  {% when '9' %}SEP
+  {% when '10' %}OKT
+  {% when '11' %}NOV
+  {% when '12' %}DEC
+{% endcase %}
+
+{% assign day = event.starts_at | date: "%-d"  %}
+
+{% case day %}
+  {% when '1' or '2' or '21' or '22' or '31'%}<div>{{ day }}</div>
+  {% else %}<div>{{ day }}</div>
+{% endcase %}
+
+{{ post.date | date: "%Y"}}

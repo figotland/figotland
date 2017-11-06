@@ -49,9 +49,9 @@ layout: default
       <div class="grid__row">
         <div class="grid__col grid__col--tablet-8  grid__col--desktop-7 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
           {% if post.tags %}
-          <ul class="tag-list">
+          <ul class="list list--tag">
             {% for tag in post.tags %}
-            <li class="tag-list__item">{{ tag }}</li>
+            <li class="list__item">{{ tag }}</li>
             {% endfor %}
           </ul>
           {% endif %}
@@ -63,7 +63,7 @@ layout: default
       <div class="grid__row">
         <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-4 grid__col--desktop-6 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
           {% if post.authors and post.guest_authors %}
-          <ul>
+          <ul class="list">
             {% for post_author in post.authors %}
             <li><span class="post__author">{{ post_author }}</span>
             {% endfor %}
@@ -72,7 +72,7 @@ layout: default
             {% endfor %}
           </ul>
           {% elsif post.authors %}
-          <ul>
+          <ul class="list">
             {% for post_author in post.authors %}
             {% assign post_author_downcase = post_author | downcase %}
             {% for site_author in site.authors %}
@@ -84,7 +84,7 @@ layout: default
             {% endfor %}
           </ul>
           {% elsif post.guest_authors %}
-          <ul>
+          <ul class="list">
             {% for post_author in post.guest_authors %}
             <li><span class="post__author">{{ post_author }}</span></li>
             {% endfor %}

@@ -1,7 +1,7 @@
 var root = document.documentElement;
 var header = document.querySelector('#header');
 var menu = document.querySelector('#menu');
-var items = document.querySelectorAll('.nav__item');
+var nav = document.querySelector('#main-nav');
 var footer = document.querySelector('#sub-nav');
 var animated = document.querySelectorAll('.animated');
 
@@ -46,10 +46,11 @@ menu.onclick = function() {
   root.classList.toggle('noscroll');
   menu.classList.toggle('active');
   header.classList.toggle('header--is-active');
-  for(var i = 0; i < items.length; i++) {
-    items[i].classList.toggle('slideIn');
-  }
-  footer.classList.toggle('slideUp');
+  nav.classList.toggle('nav--is-active');
+  // for(var i = 0; i < items.length; i++) {
+  //   items[i].classList.toggle('slideIn');
+  // }
+  // footer.classList.toggle('slideUp');
 }
 
 var accordion = document.querySelectorAll('.accordion');

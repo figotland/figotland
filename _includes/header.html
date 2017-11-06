@@ -21,15 +21,15 @@
           <nav class="nav" id="main-nav">
             <ul class="nav__list">
               {% for item in site.data.navigation.header %}
-              <li class="nav__item hidden">
-                <a class="nav__link" href="{{item.url}}"><span>{{item.title}}</span></a>
+              <li class="nav__item">
+                <a class="nav__link link-highlight" href="{{item.url}}"><span>{{item.title}}</span></a>
               </li>
               {% endfor %}
             </ul>
           </nav>
         </div>
       </div>
-      <div class="grid__row grid__row--column">
+     <!--  <div class="grid__row grid__row--column">
         <div class="grid__col grid__col--phone-12 grid__col--tablet-10 grid__col--tablet-offset-2">
           <nav class="nav hidden" id="sub-nav">
             <ul class="nav__list">
@@ -39,7 +39,7 @@
             </ul>
           </nav>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </header>

@@ -25,25 +25,19 @@ ul li ul {
     @include media('>=tablet') {
       display: inline-flex;
     }
-
-    span {
-      color: #424242;
-      font-family: $font-sans-serif;
-    }
   }
-}
 
-// move to post
-.tag-list {
-  float: left;
-  list-style: none;
-  margin: 1.6em 1rem 0 0;
-  padding: 0;
+  &--tag {
+    float: left;
+    margin: 1.6em 1rem 0 0;
 
-  &__item {
-    background-color: $primary-pink;
-    color: #fff;
-    display: inline-block;
-    padding: 0 1rem;
+    .list__item {
+      background-color: $primary-pink;
+      color: #fff;
+      display: inline-block;
+      font-size: 1.8rem;
+      margin: 0;
+      padding: 0 1rem;
+    }
   }
 }
