@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="grid grid__container">
+  <div class="grid__row">
+    <div class="gallery">
+      {% for author in site.authors %}
+      {% if author.is_politician %}
+      {% if author.image %}
+      <div class="gallery__image i{{forloop.index}}">
+        <img src="{{author.image}}">
+      </div>
+      {% endif %}
+      <div class="gallery__content c{{forloop.index}}">
+        <div class="gallery__body">
+          <h3>{{author.title}}</h3>
+          <span>{{author.role}}</span>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{{ content }}
