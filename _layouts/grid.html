@@ -6,37 +6,27 @@ layout: default
   <div class="grid__row">
     <div class="gallery">
       {% if page.url == "/politiker/" %}
-      {% for author in site.authors %}
-      {% if author.is_politician %}
-      {% if author.image %}
-      <div class="gallery__image i{{forloop.index}}">
-        <img src="{{author.image}}">
+      {% for page_author in page.authors %}
+      {% assign num = forloop.index %}
+      {% assign page_author_downcase = page_author | downcase %}
+      {% for site_author in site.authors %}
+      {% assign site_author_title = site_author.title | downcase %}
+      {% if site_author_title == page_author_downcase %}
+      <div class="gallery__image i{{num}}">
+        <img src="{{site_author.image}}">
       </div>
-      {% endif %}
-      <div class="gallery__content c{{forloop.index}}">
+      <div class="gallery__content c{{num}}">
         <div class="gallery__body">
-          <h3>{{author.title}}</h3>
-          <span>{{author.role}}</span>
+          <h3>{{page_author}}</h3>
+          <span>{{site_author.role}}</span>
         </div>
       </div>
       {% endif %}
       {% endfor %}
+      {% endfor %}
+
       {% else %}
-      {% for author in site.authors %}
-      {% if author.is_board %}
-      {% if author.image %}
-      <div class="gallery__image i{{forloop.index}}">
-        <img src="{{author.image}}">
-      </div>
-      {% endif %}
-      <div class="gallery__content c{{forloop.index}}">
-        <div class="gallery__body">
-          <h3>{{author.title}}</h3>
-          <span>{{author.role}}</span>
-        </div>
-      </div>
-      {% endif %}
-      {% endfor %}
+
       {% endif %}
     </div>
   </div>

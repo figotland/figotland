@@ -98,39 +98,6 @@
   word-break: break-word;
 }
 
-.i1 {
-  grid-area: i1;
-}
-
-.c1 {
-  grid-area: c1;
-}
-
-.i6 {
-  grid-area: i2;
-}
-
-.c6 {
-  grid-area: c2;
-}
-
-.i7 {
-  grid-area: i3;
-}
-
-.c7 {
-  grid-area: c3;
-}
-
-.i8 {
-  grid-area: i4;
-}
-
-.c8 {
-  grid-area: c4;
-
-}
-
 @for $i from 1 through 20 {
   .i#{$i} { grid-area: i + $i; }
   .c#{$i} { grid-area: c + $i; }
