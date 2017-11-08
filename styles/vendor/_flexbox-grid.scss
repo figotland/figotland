@@ -104,13 +104,6 @@
 
 .c1 {
   grid-area: c1;
-
-  .gallery__body {
-    border: 1px solid #dcdcdc;
-    border-right-width: 20px;
-    margin-right: -20px;
-    width: calc(100% + 20px);
-  }
 }
 
 .i6 {
@@ -119,12 +112,6 @@
 
 .c6 {
   grid-area: c2;
-  .gallery__body {
-    border: 1px solid #dcdcdc;
-    border-bottom-width: 20px;
-    margin-bottom: -20px;
-    height: calc(100% + 20px);
-  }
 }
 
 .i7 {
@@ -133,12 +120,6 @@
 
 .c7 {
   grid-area: c3;
-  .gallery__body {
-    border: 1px solid #dcdcdc;
-    border-top-width: 20px;
-    margin-top: -20px;
-    height: calc(100% + 20px);
-  }
 }
 
 .i8 {
@@ -147,10 +128,10 @@
 
 .c8 {
   grid-area: c4;
-  .gallery__body {
-    border: 1px solid #dcdcdc;
-    border-left-width: 20px;
-    margin-left: -20px;
-    width: calc(100% + 20px);
-  }
+
+}
+
+@for $i from 1 through 20 {
+  .i#{$i} { grid-area: i + $i; }
+  .c#{$i} { grid-area: c + $i; }
 }

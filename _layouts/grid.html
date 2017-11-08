@@ -5,6 +5,7 @@ layout: default
 <div class="grid grid__container">
   <div class="grid__row">
     <div class="gallery">
+      {% if page.url == "/politiker/" %}
       {% for author in site.authors %}
       {% if author.is_politician %}
       {% if author.image %}
@@ -20,6 +21,23 @@ layout: default
       </div>
       {% endif %}
       {% endfor %}
+      {% else %}
+      {% for author in site.authors %}
+      {% if author.is_board %}
+      {% if author.image %}
+      <div class="gallery__image i{{forloop.index}}">
+        <img src="{{author.image}}">
+      </div>
+      {% endif %}
+      <div class="gallery__content c{{forloop.index}}">
+        <div class="gallery__body">
+          <h3>{{author.title}}</h3>
+          <span>{{author.role}}</span>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
     </div>
   </div>
 </div>
