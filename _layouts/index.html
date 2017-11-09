@@ -17,7 +17,6 @@ layout: default
 </div>
 </div>
 
-<div class="bg" style="background-color: #fafafa">
 <div class="grid grid__container">
   <div class="grid__row grid__row--no-gutters">
     <div class="tile tile--is-vertical">
@@ -35,7 +34,7 @@ layout: default
                 <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html %}</time>
               </small>
               {% endif %}
-              <h3 class="post__title"><a href="{{post.url}}">{{post.title}}</a></h3>
+              <h3 class="card__title"><a href="{{post.url}}">{{post.title}}</a></h3>
               <a class="card__link" href="{{post.url}}"><span>Läs mer</span><div class="underline"></div></a>
             </div>
           </div>
@@ -81,6 +80,11 @@ layout: default
       </div>
     </div>
   </div>
+  <div class="grid__row">
+    <div class="grid__col">
+      <h2 class="page__title"><span>Kalender</span></h2>
+    </div>
+  </div>
   <div class="grid__row grid__row--no-gutters">
     {% assign sorted_events = site.events | sort: "starts_at" %}
     <div class="tile">
@@ -100,5 +104,4 @@ layout: default
       {% endfor %}
     </div>
   </div>
-</div>
 </div>

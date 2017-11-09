@@ -1,7 +1,28 @@
 .page {
 
   &__title {
+    display: inline-block;
     line-height: 1.2;
+    position: relative;
+
+    &:after {
+      background-color: $color-pink-secondary;
+      content: '';
+      display: block;
+      height: .5em;
+      left: 1.5rem;
+      position: absolute;
+      top: 60%;
+      width: 100%;
+      z-index: 1;
+
+
+    }
+
+    span {
+      position: relative;
+      z-index: 2;
+    }
   }
 
   &__content {

@@ -26,7 +26,7 @@
   width: $header-height * 2.5;
   z-index: 3;
 
-  transform: skew(-10deg, 0deg) translateX(1rem);
+  // transform: skew(-10deg, 0deg) translateX(1rem);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 1s;
 }
@@ -41,7 +41,7 @@
   width: $header-height;
   z-index: 3;
 
-  transform: skew(10deg, 0deg);
+  // transform: skew(10deg, 0deg);
 }
 
 .header__text {
@@ -52,7 +52,7 @@
   line-height: $header-height;
   position: absolute;
 
-  transform: skew(10deg, 0deg);
+  // transform: skew(10deg, 0deg);
 }
 
 .header__content {
