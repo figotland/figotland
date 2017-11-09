@@ -5,30 +5,30 @@ layout: default
 <div class="grid grid__container">
   <div class="grid__row">
     <div class="gallery">
-      {% if page.url == "/politiker/" %}
       {% for page_author in page.authors %}
       {% assign num = forloop.index %}
       {% assign page_author_downcase = page_author | downcase %}
       {% for site_author in site.authors %}
       {% assign site_author_title = site_author.title | downcase %}
       {% if site_author_title == page_author_downcase %}
+      {% if site_author.image %}
       <div class="gallery__image i{{num}}">
         <img src="{{site_author.image}}">
       </div>
+      {% else %}
+      <div class="gallery__image i{{num}}">
+        <img src="https://placehold.it/500/500">
+      </div>
+      {% endif %}
       <div class="gallery__content c{{num}}">
         <div class="gallery__body">
-          <h3>{{page_author}}</h3>
-          <span>{{site_author.role}}</span>
+          <h3 class="gallery__title">{{page_author}}</h3>
+          <span class="gallery__meta">{{site_author.role}}</span>
         </div>
       </div>
       {% endif %}
       {% endfor %}
       {% endfor %}
-
-      {% else %}
-
-      {% endif %}
     </div>
   </div>
 </div>
-{{ content }}

@@ -1,7 +1,7 @@
 .button {
   align-items: center;
   background-color: transparent;
-  border: 1px solid pink;
+  border: 1px solid $button-color;
   cursor: pointer;
   display: inline-flex;
   font-family: $font-serif;
@@ -15,7 +15,7 @@
 }
 
 .button__primary {
-  background-color: pink;
+  background-color: $button-color;
 
   @include media('>=tablet') {
     background-color: transparent;
@@ -27,7 +27,7 @@
   }
 
   &:before {
-    background-color: pink;
+    background-color: $button-color;
     bottom: 0;
     content: '';
     left: 0;

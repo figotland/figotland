@@ -1,7 +1,7 @@
 .icon {
   align-items: center;
   display: inline-flex;
-  fill: #9B9B9B; //change to variable
+  fill: $icon-color;
   height: 16px;
   margin-left: -3px;
   margin-right: .5rem;

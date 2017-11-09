@@ -7,7 +7,7 @@
   position: relative;
 
   &:before {
-    background-color: $secondary-pink;;
+    background-color: $border-color;
     bottom: 0;
     content: '';
     display: block;
@@ -32,5 +32,17 @@
     display: inline-block;
     position: relative;
     z-index: 2;
+  }
+}
+
+.link-body {
+  p a:not(.button) {
+    border-bottom: 2px solid $link-color;
+    transition: color .1s linear, border-color .1s linear;
+
+    &:hover {
+      color: $link-color;
+      border-color: transparent;
+    }
   }
 }

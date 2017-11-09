@@ -1,11 +1,11 @@
 .accordion {
-  border: 1px solid $primary-pink;
+  border: 1px solid $border-color;
   border-width: 1px 0;
   margin-bottom: 40px;
   position: relative;
 
   .icon {
-    fill: $primary-pink;
+    fill: $icon-color;
     position: absolute;
     right: 0;
     top: 16px;

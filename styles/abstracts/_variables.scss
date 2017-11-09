@@ -11,12 +11,21 @@ $black: #1a1a1a;
 $base-bg-color: $almost-white;
 $base-font-color: $black;
 
+$color-pink-primary: hsl(340, 100%, 63%);   //#ff4081
+$color-pink-secondary: hsl(350, 100%, 88%); //#ffc0cb
+$color-grey-primary: hsl(0, 0%, 60%);       //#999999
+
+$border-color: $color-pink-secondary;
+$button-color: $color-pink-secondary;
+$caption-color: $color-grey-primary;
+$icon-color: $color-grey-primary;
+$link-color: $color-pink-primary;
+$reveal-color: $color-pink-secondary;
+
 $font-sans-serif: 'Roboto', sans-serif;
 $font-serif: 'Roboto Slab', serif;
 
 $header-height: 48px;
-
-$icon-color: #cd1b68;
 
 $gap: 32px;
 

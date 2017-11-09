@@ -8,7 +8,7 @@
   }
 
   &--is-preview {
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
     margin-bottom: 3rem;
 
     &:first-of-type {
@@ -32,31 +32,16 @@
       line-height: 1.8;
       margin-top: .8em;
     }
-  }
 
-  &__cover {
-
-  }
-
-  &__image {
-
-  }
-
-  &__image-caption {
-    color: #888;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    text-align: right;
-  }
-
-  // move to video
-  &__video {
-    padding-bottom: 56.25%;
-    height: 0;
-
-    iframe {
-      height: 100%;
-      width: 100%;
+    &:after {
+      background-color: #f7f7f7;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 1px;
+      left: 1rem;
+      position: absolute;
+      width: calc(100% - 2rem);
     }
   }
 
@@ -105,16 +90,6 @@
 
     @include media('>=tablet') {
       font-size: 1.8rem;
-    }
-
-    p a:not(.button) {
-      border-bottom: 2px solid $primary-pink;
-      transition: color .1s linear, border-color .1s linear;
-
-      &:hover {
-        color: $primary-pink;
-        border-color: transparent;
-      }
     }
   }
 

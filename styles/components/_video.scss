@@ -1,0 +1,11 @@
+video,
+.video {
+  margin-top: 1.5rem;
+  padding-bottom: 56.25%;
+  height: 0;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}

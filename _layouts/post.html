@@ -9,7 +9,7 @@ layout: default
       <div class="grid__row">
         {% if post.image and post.video %}
         <div class="grid__col grid__col--tablet-12 grid__col--desktop-12 grid__col--widescreen-10 grid__col--widescreen-offset-1">
-          <div class="post__video">
+          <div class="video">
             {{ post.video }}
           </div>
         </div>
@@ -18,9 +18,9 @@ layout: default
           <div class="image-wrap">
             <div class="image-overlay"></div>
             <div class="image-reveal"></div>
-            <img class="post__image" src="{{post.image}}" alt="{{post.title}}">
+            <img class="image" src="{{post.image}}" alt="{{post.title}}">
             {% if post.image_caption %}
-            <div class="post__image-caption">{{ post.image_caption }}</div>
+            <div class="image-caption">{{ post.image_caption }}</div>
             {% endif %}
           </div>
         </div>
@@ -29,9 +29,9 @@ layout: default
     </div>
     <header class="post__header sr-up">
       <div class="grid__row">
-        <div class="grid__col grid__col--tablet-12 grid__col--desktop-12 grid__col--widescreen-10 grid__col--widescreen-offset-1">
+        <div class="grid__col grid__col--tablet-12 grid__col--desktop-12 grid__col--widescreen-8 grid__col--widescreen-offset-2">
           {% if post.title %}
-          <h1 class="post__title">{{post.title}}</h1>
+            <h1 class="post__title">{{post.title}}</h1>
           {% endif %}
           <small class="post__meta">
             {% if post.date %}
@@ -45,7 +45,7 @@ layout: default
         </div>
       </div>
     </header>
-    <div class="post__content sr-up">
+    <div class="post__content link-body sr-up">
       <div class="grid__row">
         <div class="grid__col grid__col--tablet-8  grid__col--desktop-7 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
           {% if post.tags %}
@@ -61,7 +61,7 @@ layout: default
     </div>
     <footer class="post__footer">
       <div class="grid__row">
-        <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-4 grid__col--desktop-6 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
+        <div class="grid__col grid__col--tablet-8 grid__col--desktop-6 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
           {% if post.authors and post.guest_authors %}
           <ul class="list">
             {% for post_author in post.authors %}
@@ -78,7 +78,7 @@ layout: default
             {% for site_author in site.authors %}
             {% assign site_author_title = site_author.title | downcase %}
             {% if site_author_title == post_author_downcase %}
-            <li><span class="post__author">{{ post_author }}</span> — {{ site_author.role }}</li>
+            <li><span class="post__author">{{ post_author }}</span> — {{ site_author.role | downcase }}</li>
             {% endif %}
             {% endfor %}
             {% endfor %}
@@ -86,7 +86,16 @@ layout: default
           {% elsif post.guest_authors %}
           <ul class="list">
             {% for post_author in post.guest_authors %}
-            <li><span class="post__author">{{ post_author }}</span></li>
+            {% assign words = post_author | split: ' ' %}
+            <li><span class="post__author">
+            {% for word in words %}
+            {{ word }}
+            {% if forloop.index == 3 %}
+            </span>
+            {% endif %}
+            {% endfor %}
+            </li>
+            <!-- <li><span class="post__author">{{ post_author }}</span></li> -->
             {% endfor %}
           </ul>
           {% endif %}
