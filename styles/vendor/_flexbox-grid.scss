@@ -27,6 +27,7 @@
   }
 
   &--no-gutters {
+    padding: 0;
     @include media("≥tablet") {
       padding: 0;
     }

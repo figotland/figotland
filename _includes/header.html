@@ -1,26 +1,36 @@
 <header class="header" id="header" role="banner">
   <div class="grid grid__container">
-    <a class="header__title" href="/">
-      <span class="header__image"></span>
-      <span class="header__text">Gotland</span>
-    </a>
-    <button class="menu-icon" id="menu">
-      <span class="menu-icon menu-icon__bread menu-icon__bread--top">
-        <span class="menu-icon menu-icon__crust menu-icon__crust--top"></span>
-      </span>
-      <span class="menu-icon menu-icon__bread menu-icon__bread--bottom">
-        <span class="menu-icon menu-icon__crust menu-icon__crust--bottom"></span>
-      </span>
-    </button>
+    <div class="grid__row grid__row--no-gutters">
+      <a class="header__title" href="/">
+        <span class="header__image"></span>
+        <span class="header__text">Gotland</span>
+      </a>
+      <nav class="top-nav" id="main-nav">
+        <ul class="nav__list">
+          {% for item in site.data.navigation.header %}
+          <li class="nav__item">
+            <a class="nav__link" href="{{item.url}}"><span>{{item.title}}</span></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <button class="menu-icon" id="menu">
+        <span class="menu-icon menu-icon__bread menu-icon__bread--top">
+          <span class="menu-icon menu-icon__crust menu-icon__crust--top"></span>
+        </span>
+        <span class="menu-icon menu-icon__bread menu-icon__bread--bottom">
+          <span class="menu-icon menu-icon__crust menu-icon__crust--bottom"></span>
+        </span>
+      </button>
+    </div>
   </div>
-
   <div class="header__content" id="navigation">
     <div class="grid grid__container">
       <div class="grid__row grid__row--column">
         <div class="grid__col grid__col--phone-12 grid__col--tablet-10 grid__col--tablet-offset-2">
-          <nav class="nav" id="main-nav">
+          <nav class="main-nav" id="main-nav">
             <ul class="nav__list">
-              {% for item in site.data.navigation.header %}
+              {% for item in site.data.navigation.nav %}
               <li class="nav__item">
                 <a class="nav__link link-highlight" href="{{item.url}}"><span>{{item.title}}</span></a>
               </li>

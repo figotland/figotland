@@ -3,6 +3,15 @@ header:
   url: /om/
 - title: Vår politik
   url: /politik/
+- title: Blogg
+  url: /blogg/
+- title: Kalender
+  url: /kalender/
+nav:
+- title: Om F! Gotland
+  url: /om/
+- title: Vår politik
+  url: /politik/
 - title: Val 2018
   url: /val2018/
 - title: Våra politiker
@@ -15,6 +24,8 @@ header:
   url: /kalender/
 - title: Kontakt
   url: /kontakt/
-footer:
 - title: In English
   url: /om/
+footer:
+- title: In English
+  url: /english/
