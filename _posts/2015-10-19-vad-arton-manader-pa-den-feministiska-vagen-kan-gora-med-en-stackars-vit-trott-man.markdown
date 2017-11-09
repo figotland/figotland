@@ -1,5 +1,6 @@
 ---
-title: Vad arton månader på den feministiska vågen kan göra med en stackars vit, trött man
+title: Vad arton månader på den feministiska vågen kan göra med en stackars vit, trött
+  man
 date: 2015-10-19 08:52:00 Z
 tags:
 - feminism
