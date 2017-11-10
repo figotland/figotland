@@ -6,7 +6,7 @@ layout: default
   {% if page.title %}
   <div class="grid__row">
     <div class="grid__col">
-      <h2 class="page__title">{{ page.title }}</h2>
+      <h2 class="page__title sr-left"><span>{{ page.title }}</span></h2>
     </div>
   </div>
   {% endif %}
@@ -15,8 +15,8 @@ layout: default
     {% include post.html post=post is_excerpt=true %}
   {% endfor %}
 
-  <div class="grid__row">
-    <div class="grid__col">
+  <div class="grid__row grid__row--no-tb-gutters">
+    <div class="grid__col grid__col--no-tb-gutters">
       <a class="button button__primary" href="/blogg/arkiv/"><span>Äldre inlägg</span></a>
     </div>
   </div>

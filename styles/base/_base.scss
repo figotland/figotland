@@ -29,3 +29,7 @@ body {
   flex: 1 0 auto;
   margin-top: 6rem;
 }
+
+::selection {
+  background: $selection-color;
+}

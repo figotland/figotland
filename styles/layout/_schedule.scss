@@ -7,6 +7,10 @@
     @include media(">=tablet") {
       padding: 0;
     }
+
+    &:last-of-type {
+      border: 0;
+    }
   }
 
   &__content {

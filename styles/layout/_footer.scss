@@ -1,6 +1,12 @@
 .footer {
-  color: #9d9d9d;
-  flex-shrink: 0;
-  font-size: 1.2rem;
-  text-align: center;
+  background-color: $footer-color;
+  color: $color-pink-primary;
+  font-family: $font-serif;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+}
+
+.footer__logo {
+  max-width: 24px;
 }

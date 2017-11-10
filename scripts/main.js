@@ -30,6 +30,18 @@ sr.reveal('.post--is-preview', {
   duration: 500
 });
 
+sr.reveal('.i1, .c1, .i3, .c3', {
+  duration: 500,
+  origin: 'left',
+  scale: 1,
+});
+
+sr.reveal('.i2, .c2', {
+  scale: 1,
+  duration: 500,
+  opacity: 0,
+});
+
 sr.reveal('.sr-left', {
   duration: 500,
   origin: 'left',

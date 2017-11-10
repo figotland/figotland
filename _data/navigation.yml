@@ -26,6 +26,24 @@ nav:
   url: /kontakt/
 - title: In English
   url: /om/
-footer:
+footer1:
+- title: Om F! Gotland
+  url: /om/
+- title: Vår politik
+  url: /politik/
+- title: Val 2018
+  url: /val2018/
+footer2:
+- title: Våra politiker
+  url: /politiker/
+- title: Styrelsen
+  url: /styrelsen/
+- title: Blogg
+  url: /blogg/
+footer3:
+- title: Kalender
+  url: /kalender/
+- title: Kontakt
+  url: /kontakt/
 - title: In English
-  url: /english/
+  url: /om/

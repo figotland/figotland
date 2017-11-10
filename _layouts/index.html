@@ -3,22 +3,25 @@ layout: default
 ---
 
 <div class="grid grid__container">
-  <div class="hero">
-  <div class="hero__content">
-    <!-- <div class="grid grid__container"> -->
-      <div class="grid__row grid__row--no-gutters">
+  <div class="grid__row">
+    <div class="hero">
+      <div class="hero__content">
         <div class="grid__col grid__col--tablet-8 grid__col--desktop-10 grid__col--widescreen-8">
-          <h1 class="hero__title">Vi kämpar för en jämställd, jämlik och ekologiskt hållbar ö och värld.</h1>
-            <a class="card__link" href="{{post.url}}"><span>Läs mer om oss</span><div class="underline"></div></a>
+          <h1 class="hero__title sr-up">Vi kämpar för en jämställd, jämlik och ekologiskt hållbar ö och värld.</h1>
+          <a class="card__link sr-up" href="{{post.url}}"><span>Läs mer om oss</span><div class="underline"></div></a>
         </div>
       </div>
-    <!-- </div> -->
+    </div>
   </div>
-</div>
 </div>
 
 <div class="grid grid__container">
-  <div class="grid__row grid__row--no-gutters">
+  <div class="grid__row">
+    <div class="grid__col">
+      <h2 class="page__title sr-left"><span>Blogg</span></h2>
+    </div>
+  </div>
+  <div class="grid__row">
     <div class="tile tile--is-vertical">
       <div class="tile">
       {% for post in site.posts limit: 3 %}
@@ -80,12 +83,23 @@ layout: default
       </div>
     </div>
   </div>
+
+  <div class="hero">
+    <div class="hero__content text--right">
+      <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-4">
+        <h1 class="hero__title">Feminism innebär något så enkelt som att omtanke, medkänsla och alla människors lika värde och rättigheter sätts absolut&nbsp;främst.</h1>
+        <a class="card__link" href="{{post.url}}"><span>Läs mer om vår politik</span><div class="underline"></div></a>
+      </div>
+    </div>
+  </div>
+
   <div class="grid__row">
     <div class="grid__col">
       <h2 class="page__title"><span>Kalender</span></h2>
     </div>
   </div>
-  <div class="grid__row grid__row--no-gutters">
+  <div class="grid__row">
+    <div class="grid__col">
     {% assign sorted_events = site.events | sort: "starts_at" %}
     <div class="tile">
       {% for event in sorted_events limit: 4 %}
@@ -103,5 +117,6 @@ layout: default
       </div>
       {% endfor %}
     </div>
+  </div>
   </div>
 </div>

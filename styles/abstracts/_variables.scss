@@ -14,13 +14,18 @@ $base-font-color: $black;
 $color-pink-primary: hsl(340, 100%, 63%);   //#ff4081
 $color-pink-secondary: hsl(350, 100%, 88%); //#ffc0cb
 $color-grey-primary: hsl(0, 0%, 60%);       //#999999
+$color-grey-secondary: hsl(51, 21%, 94%);   //#f2f1eb
 
 $border-color: $color-pink-secondary;
 $button-color: $color-pink-secondary;
 $caption-color: $color-grey-primary;
+$footer-color: $color-grey-secondary;
+$hamburger-color: $color-pink-primary;
+$header-color: $color-pink-primary;
 $icon-color: $color-grey-primary;
 $link-color: $color-pink-primary;
 $reveal-color: $color-pink-secondary;
+$selection-color: $color-pink-secondary;
 
 $font-sans-serif: 'Roboto', sans-serif;
 $font-serif: 'Roboto Slab', serif;

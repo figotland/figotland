@@ -28,9 +28,14 @@
 
   &--no-gutters {
     padding: 0;
+
     @include media("≥tablet") {
       padding: 0;
     }
+  }
+
+  &--no-tb-gutters {
+    padding: 0 0.5rem;
   }
 }
 
@@ -43,6 +48,10 @@
   flex: 0 0 100%;
   padding: 0.5rem;
   max-width: 100%;
+
+  &--no-tb-gutters {
+    padding: 0 0.5rem;
+  }
 }
 
 @include init($breakpoints, $grid-columns);

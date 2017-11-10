@@ -33,7 +33,7 @@
 }
 
 .header__title {
-  background-color:  $primary-pink;
+  background-color: $header-color;
   height: $header-height;
   position: absolute;
   width: $header-height * 2.5;
@@ -69,7 +69,7 @@
 }
 
 .header__content {
-  background-color: $primary-pink;
+  background-color: $header-color;
   display: flex;
   height: 100vh;
   overflow: hidden;
@@ -145,7 +145,7 @@
 }
 
 .menu-icon__crust {
-  background-color: $primary-pink;
+  background-color: $hamburger-color;
   display: block;
   height: 1px;
   left: 16px;

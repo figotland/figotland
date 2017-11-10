@@ -80,6 +80,15 @@
   }
 }
 
+.sub-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .list {
+  }
+}
+
 // .nav__list {
 //   display: flex;
 //   flex-shrink: 0;
@@ -110,15 +119,3 @@
 //   }
 // }
 
-#sub-nav {
-  margin-top: 1rem;
-
-  &:before {
-    background-color: #fff;
-    content: '';
-    height: 1px;
-    position: absolute;
-    top: -1rem;
-    width: 25px;
-  }
-}

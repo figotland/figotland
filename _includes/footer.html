@@ -1,0 +1,37 @@
+<footer class="footer">
+  <div class="grid grid__container">
+    <div class="grid__row">
+      <div class="grid__col grid__col--tablet-6 grid__col--tablet-offset-1">
+        <img class="footer__logo" src="/assets/fi-symbol-alt.svg">
+      </div>
+    </div>
+    <div class="grid__row">
+      <div class="grid__col grid__col--tablet-6 grid__col--tablet-offset-1">
+        <nav class="sub-nav">
+          <ul class="list">
+            {% for item in site.data.navigation.footer1 %}
+            <li class="">
+              <a class="link-highlight" href="{{item.url}}"><span>{{item.title}}</span></a>
+            </li>
+            {% endfor %}
+          </ul>
+          <ul class="list">
+            {% for item in site.data.navigation.footer2 %}
+            <li class="">
+              <a class="link-highlight" href="{{item.url}}"><span>{{item.title}}</span></a>
+            </li>
+            {% endfor %}
+          </ul>
+          <ul class="list">
+            {% for item in site.data.navigation.footer3 %}
+            <li class="">
+              <a class="link-highlight" href="{{item.url}}"><span>{{item.title}}</span></a>
+            </li>
+            {% endfor %}
+          </ul>
+          <!-- <img src="/assets/fi-symbol.svg"> -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</footer>
