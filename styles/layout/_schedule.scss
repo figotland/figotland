@@ -2,9 +2,11 @@
   &__section {
     border-bottom: 1px solid $border-color;
     padding-bottom: 1.5rem;
+    padding-top: 3rem;
     position: relative;
 
     @include media(">=tablet") {
+      margin: 0 1rem;
       padding: 0;
     }
 

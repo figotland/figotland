@@ -3,8 +3,16 @@
   flex-direction: column;
   word-wrap: break-word;
 
+  // @include media("portrait") {
+  //   background-color: red;
+  // }
+
   @include media("≥tablet", "<desktop") {
     padding: 0 20px;
+  }
+
+  @include media("≥widescreen") {
+    padding-top: 3rem;
   }
 
   &--is-preview {
@@ -13,6 +21,10 @@
 
     &:first-of-type {
       margin-top: 1.6em;
+    }
+
+    .post__image {
+      margin-top: 1rem;
     }
 
     .post__title {

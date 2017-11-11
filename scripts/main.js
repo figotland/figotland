@@ -54,6 +54,18 @@ sr.reveal('.sr-up', {
   opacity: 0,
 }, 250);
 
+sr.reveal('.sr-hero-1', {
+  scale: 1,
+  duration: 750,
+  opacity: 0,
+}, 250);
+
+sr.reveal('.sr-hero-2', {
+  scale: 1,
+  duration: 750,
+  opacity: 0,
+}, 250);
+
 menu.onclick = function() {
   root.classList.toggle('noscroll');
   menu.classList.toggle('active');
