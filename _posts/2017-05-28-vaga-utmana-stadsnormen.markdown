@@ -4,7 +4,7 @@ date: 2017-05-28 09:40:00 Z
 tags:
 - landsbygd
 authors: Elin Bååth
-image: "/uploads/cover_28-04-17.jpg"
+image: "/uploads/cover_28-05-17.jpg"
 image_caption: 'Foto: Johnny Andersson'
 ---
 
