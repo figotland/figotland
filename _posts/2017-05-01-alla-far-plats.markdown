@@ -4,6 +4,7 @@ date: 2017-05-01 09:43:00 Z
 tags:
 - 1 maj
 authors: Tomas Pettersson
+image: "/uploads/cover_01-05-17.jpg"
 ---
 
 I morgontidningen idag läser jag om den europeiska socialdemokratins självdöd. Här hemma ser vi en sosseregering som vill ha hårdast tag mot brottslingar och som vill kriminalisera fattigdom. Är det socialdemokratin som dör eller är det ”mittenpolitiken” som gör det? Vi hör också miljöpartister som tror att asylsökande kan behandlas som kriminella. Men när jag läser om allt detta elände så är jag ytterst stolt att tillhöra alternativet, aktivismen, i en modern rosa vänsterrörelse med enorma feministiska ambitioner. Jag ser att breda rörelser som Fatta, Vi har fått nog, och andra aktivister framgångsrikt driver feministiska vänsterfrågor – och jag känner det; det finns inte bara liv i en rosa vänster! Det är vind i seglen, Vi tar fajten, Vi står för jämlikheten och vi skriker så vi storknar: INGA NAZISTER PÅ VÅRA GATOR! Inte på våra torg heller för den delen!
