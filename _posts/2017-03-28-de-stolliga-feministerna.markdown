@@ -6,6 +6,7 @@ tags:
 authors:
 - Elin Bååth
 - Nina Ruthström
+image: "/uploads/cover_28-03-17.jpg"
 ---
 
 När Peter Wennblad (M) tillträdde som ordinarie ledamot i regionstyrelsen här om dagen blev ett av hans första uttalanden att “Feministiskt Initiativ är väl det enda partiet som lokalt ger SD god konkurrens när det gäller stolligheter”.
