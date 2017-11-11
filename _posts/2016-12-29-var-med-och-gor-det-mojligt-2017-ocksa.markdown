@@ -1,6 +1,7 @@
 ---
 title: Var med och gör det möjligt 2017 också!
 date: 2016-12-29 12:00:00 Z
+guest_authors: F! Gotland
 image: "/uploads/cover_29-12-16.jpg"
 ---
 
