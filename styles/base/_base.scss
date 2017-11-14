@@ -28,6 +28,7 @@ body {
 #main {
   flex: 1 0 auto;
   margin-top: 6rem;
+  min-height: calc(100vh - 15rem);
 }
 
 ::selection {

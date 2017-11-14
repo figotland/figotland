@@ -33,6 +33,12 @@
     position: relative;
     z-index: 2;
   }
+
+  &--primary {
+    &:before {
+      background-color: $color-pink-primary;
+    }
+  }
 }
 
 .link-body {

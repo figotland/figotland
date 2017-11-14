@@ -5,10 +5,10 @@
   <div class="grid__row">
     {% if post.image %}
     <div class="grid__col grid__col--tablet-4 grid__col--desktop-5">
-      <img class="post__image" src="{{post.image}}">
+      <img class="post__image sr-up-1" src="{{post.image}}">
     </div>
     {% endif %}
-    <div class="grid__col grid__col--tablet-7 grid__col--desktop-5 grid__col--tablet-offset-1 grid__col--desktop-offset-1">
+    <div class="grid__col grid__col--tablet-7 grid__col--desktop-5 grid__col--tablet-offset-1 grid__col--desktop-offset-1 sr-up-2">
       <header class="post__header">
         <small class="post__meta">
           {% if post.date %}
@@ -16,7 +16,7 @@
           {% endif %}
         </small>
         {% if post.title %}
-        <h2 class="post__title"><a href="{{post.url}}">{{post.title}}</a></h2>
+        <h2 class="post__title"><a class="" href="{{post.url}}"><span>{{post.title}}</span></a></h2>
         {% endif %}
       </header>
       <div class="post__content ">

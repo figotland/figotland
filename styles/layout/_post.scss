@@ -1,11 +1,8 @@
 .post {
+  position: relative;
   display: flex;
   flex-direction: column;
   word-wrap: break-word;
-
-  // @include media("portrait") {
-  //   background-color: red;
-  // }
 
   @include media("≥tablet", "<desktop") {
     padding: 0 20px;
@@ -33,6 +30,14 @@
       @include media("≥tablet")  {
         font-size: 3.6rem;
       }
+
+      a {
+        -webkit-text-decoration-skip: ink;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
 
     .post__meta {
@@ -55,6 +60,10 @@
       position: absolute;
       width: calc(100% - 2rem);
     }
+  }
+
+  &__cover {
+    margin-top: 1.5rem;
   }
 
   &__header {
@@ -110,4 +119,8 @@
     margin-bottom: 1.6em;
     position: relative;
   }
+}
+
+.related {
+  border-top: 1px solid $border-color;
 }

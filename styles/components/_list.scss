@@ -35,9 +35,13 @@ ul li ul {
       background-color: $primary-pink;
       color: #fff;
       display: inline-block;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       margin: 0;
       padding: 0 1rem;
+
+      @include media('>=tablet') {
+        font-size: 1.8rem;
+      }
     }
   }
 }
