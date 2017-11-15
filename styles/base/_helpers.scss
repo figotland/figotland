@@ -1,3 +1,9 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .noscroll {
   height: 100%;
   overflow: hidden;
@@ -6,8 +12,4 @@
     overflow: hidden;
     height: 100%;
   }
-}
-
-.bg {
-  padding: 90px 0;
 }

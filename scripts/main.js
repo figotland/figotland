@@ -27,19 +27,27 @@ sr.reveal('.image-wrap', {
 
 sr.reveal('.post--is-preview', {
   scale: 1,
-  duration: 500
+  duration: 500,
+  viewFactor: 0.1,
+});
+
+sr.reveal('.related-post', {
+  scale: 1,
+  duration: 500,
 });
 
 sr.reveal('.sr-up-1', {
   scale: 1,
   duration: 500,
-  delay: 150
+  delay: 150,
+  mobile: false,
 });
 
 sr.reveal('.sr-up-2', {
   scale: 1,
   duration: 500,
   delay: 250,
+  mobile: false,
 });
 
 sr.reveal('.i1, .c1, .i3, .c3', {

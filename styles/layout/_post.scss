@@ -14,10 +14,15 @@
 
   &--is-preview {
     padding-bottom: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     &:first-of-type {
       margin-top: 1.6em;
+    }
+
+    &:last-of-type {
+      padding-bottom: 2rem;
+      margin-bottom: 3rem;
     }
 
     .post__image {
@@ -121,6 +126,41 @@
   }
 }
 
-.related {
-  border-top: 1px solid $border-color;
+.related-post {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+  &__content {
+    background: #e1fefa;
+    flex: 1;
+    margin: -4rem 2rem 1.5rem 2rem;
+    padding: 1.5rem 2rem 0 2rem;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__meta {
+    float: left;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  &__date {
+    float: right;
+    font-size: 1.2rem;
+  }
+
+  &__title {
+    line-height: 1.2;
+    margin-top: 1rem;
+  }
+}
+
+.thumb {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
