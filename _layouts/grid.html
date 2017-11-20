@@ -3,6 +3,13 @@ layout: default
 ---
 
 <div class="grid grid__container">
+  {% if page.title %}
+  <div class="grid__row">
+    <div class="grid__col">
+      <h2 class="page__title sr-left"><span>{{ page.title }}</span></h2>
+    </div>
+  </div>
+  {% endif %}
   <div class="grid__row">
     <div class="grid__col">
     <div class="gallery">
@@ -25,6 +32,7 @@ layout: default
         <div class="gallery__body">
           <h3 class="gallery__title">{{page_author}}</h3>
           <span class="gallery__meta">{{site_author.role}}</span>
+          {{site_author.content}}
         </div>
       </div>
       {% endif %}

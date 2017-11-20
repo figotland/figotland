@@ -9,4 +9,4 @@ Vi välkomnar dig att vara med! Vi tror starkt på att alla behövs och att alla
 
 Är du mellan 13 och 26 år? Då är du också välkommen i vårt ungdomsförbund [Unga feminister Gotland](https://www.facebook.com/UngaFeministerGotland/).
 
-Feministiskt initiativ Gotland har ett ordinarie mandat i regionfullmäktige och två ersättarplatser. Vi har också en ersättarplats i hälso- och sjukvårdsnämnden. Vi har dessutom en plats i tingsrätten och är representerade i Region Gotlands politiska referensgrupp för jämställdhetsfrågor. Läs mer om våra politiker!
+Feministiskt initiativ Gotland har ett ordinarie mandat i regionfullmäktige och två ersättarplatser. Vi har också en ersättarplats i hälso- och sjukvårdsnämnden. Vi har dessutom en plats i tingsrätten och är representerade i Region Gotlands politiska referensgrupp för jämställdhetsfrågor. [Läs mer om våra politiker](/politiker)!

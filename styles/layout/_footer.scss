@@ -1,10 +1,15 @@
 .footer {
-  background-color: $footer-color;
   color: $color-pink-primary;
   font-family: $font-serif;
   font-size: 1.4rem;
   margin-top: 3rem;
   padding: 1.5rem 0;
+
+  &__address {
+    span {
+      display: block;
+    }
+  }
 }
 
 .footer__logo {

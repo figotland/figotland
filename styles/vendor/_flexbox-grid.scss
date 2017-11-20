@@ -120,7 +120,9 @@
 .gallery__body {
   display: flex;
   flex-direction: column;
+  font-size: 1.4rem;
   height: 100%;
+  overflow-x: scroll;
   padding: 1rem;
   position: relative;
   word-break: break-word;

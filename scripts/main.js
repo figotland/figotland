@@ -25,6 +25,14 @@ sr.reveal('.image-wrap', {
   }
 });
 
+// sr.reveal('.main-nav .nav__item', {
+//   duration: 1000,
+//   delay: 2000,
+//   origin: 'left',
+//   scale: 1,
+//   easing: 'cubic-bezier(.75, 0, .25, 1)',
+// }, 100);
+
 sr.reveal('.post--is-preview', {
   scale: 1,
   duration: 500,

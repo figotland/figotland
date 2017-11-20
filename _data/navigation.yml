@@ -25,7 +25,7 @@ nav:
 - title: Kontakt
   url: /kontakt/
 - title: In English
-  url: /om/
+  url: /english/
 footer1:
 - title: Om F! Gotland
   url: /om/
@@ -46,4 +46,4 @@ footer3:
 - title: Kontakt
   url: /kontakt/
 - title: In English
-  url: /om/
+  url: /english/
