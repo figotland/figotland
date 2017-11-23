@@ -56,7 +56,7 @@ img {
     animation-duration: .4s;
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(.49, .01, .7, .82);
-    animation-name: kuken;
+    animation-name: revealLeft;
   }
 
   .image-reveal {
@@ -64,6 +64,6 @@ img {
     animation-duration: .4s;
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(.49, .01, .7, .82);
-    animation-name: kuken;
+    animation-name: revealLeft;
   }
 }

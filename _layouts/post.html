@@ -13,7 +13,7 @@ layout: default
             {{ post.video }}
           </div>
         </div>
-        {% elsif post.image %}
+        {% elsif post.image contains '.jpg' %}
         <div class="grid__col grid__col--tablet-12 grid__col--desktop-12 grid__col--widescreen-10 grid__col--widescreen-offset-1">
           <div class="image-wrap">
             <div class="image-overlay"></div>
@@ -124,7 +124,7 @@ layout: default
     <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-1 grid__col--desktop-7 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
       <article class="related-post">
         <a class="thumb" href="{{post.url}}">
-        {% if post.image %}
+        {% if post.image contains '.jpg' %}
         <img src="{{post.image}}">
         {% else %}
         <img src="https://placehold.it/1024x576">

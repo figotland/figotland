@@ -1,5 +1,4 @@
 .footer {
-  color: $color-pink-primary;
   font-family: $font-serif;
   font-size: 1.4rem;
   margin-top: 3rem;
@@ -14,4 +13,23 @@
 
 .footer__logo {
   max-width: 24px;
+}
+
+.footer-nav {
+  color: $color-pink-primary;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__address {
+  color: $font-color;
+  flex-grow: 2;
+
+  @include media("≥tablet") {
+    flex-grow: 0;
+    margin: 0;
+    text-align: right;
+  }
 }

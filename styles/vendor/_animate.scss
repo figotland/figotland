@@ -61,20 +61,6 @@
   animation-name: slideInLeft;
 }
 
-@keyframes kuken {
-  from {
-    left: 0;
-  }
-
-  to {
-    left: 100%;
-  }
-}
-
-.kuken {
-  animation-name: kuken;
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -85,6 +71,20 @@
     opacity: 1;
     transform: none;
   }
+}
+
+@keyframes revealLeft {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.revealLeft {
+  animation-name: revealLeft;
 }
 
 .fadeInUp {

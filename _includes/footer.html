@@ -1,17 +1,17 @@
 <footer class="footer">
   <div class="grid grid__container">
     <div class="grid__row">
-      <div class="grid__col grid__col--tablet-6 grid__col--tablet-offset-1">
-        <img class="footer__logo" src="/assets/fi-symbol-alt.svg">
+      <div class="grid__col grid__col--tablet-10 grid__col--tablet-offset-1">
+        <hr class="hr hr--pink">
       </div>
     </div>
     <div class="grid__row">
-      <div class="grid__col grid__col--tablet-6 grid__col--tablet-offset-4">
-        <nav class="sub-nav">
-          <p class="footer__address">
+      <div class="grid__col grid__col--tablet-10 grid__col--tablet-offset-1">
+        <nav class="footer-nav">
+          <!-- <p class="footer__address">
             <span>Söderväg 1</span>
             <span>621 58 Visby</span>
-          </p>
+          </p> -->
           <ul class="list">
             {% for item in site.data.navigation.footer1 %}
             <li class="">
@@ -33,11 +33,20 @@
             </li>
             {% endfor %}
           </ul>
-          <!-- <img src="/assets/fi-symbol.svg"> -->
+          <p class="footer__address">
+            <span>Feministiskt initiativ Gotland</span>
+            <span>Söderväg 1</span>
+            <span>621 58 Visby</span>
+          </p>
         </nav>
-          <li><svg class="icon"><use xlink:href="#icon-facebook"></use></svg><a class="sidebar__link link-highlight" href="{{asset.file}}" target="_blank"><span>{{asset.caption}}</span></a></li>
+          <!-- <p class="footer__address">
+            <span>Feministiskt initiativ Gotland</span>
+            <span>Söderväg 1</span>
+            <span>621 58 Visby</span>
+          </p> -->
+          <!-- <li><svg class="icon"><use xlink:href="#icon-facebook"></use></svg><a class="sidebar__link link-highlight" href="{{asset.file}}" target="_blank"><span>{{asset.caption}}</span></a></li>
           <li><svg class="icon"><use xlink:href="#icon-instagram"></use></svg><a class="sidebar__link link-highlight" href="{{asset.file}}" target="_blank"><span>{{asset.caption}}</span></a></li>
-          <li><svg class="icon"><use xlink:href="#icon-twitter"></use></svg><a class="sidebar__link link-highlight" href="{{asset.file}}" target="_blank"><span>{{asset.caption}}</span></a></li>
+          <li><svg class="icon"><use xlink:href="#icon-twitter"></use></svg><a class="sidebar__link link-highlight" href="{{asset.file}}" target="_blank"><span>{{asset.caption}}</span></a></li> -->
       </div>
     </div>
   </div>

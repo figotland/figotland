@@ -1,7 +1,5 @@
 .event {
   &__section {
-    border-bottom: 1px solid $border-color;
-    padding-bottom: 1.5rem;
     padding-top: 3rem;
     position: relative;
 
@@ -10,21 +8,36 @@
       padding: 0;
     }
 
-    &:last-of-type {
-      border: 0;
+    &:after {
+      background-color: $border-color;
+      content: '';
+      display: block;
+      height: 1px;
+      margin: 1.5rem auto 0 auto;
+      width: calc(100% - 1rem);
+
+      @include media(">=tablet") {
+        margin: 0 auto;
+        width: 83.3333333333%;
+      }
+    }
+
+    &:last-of-type:after {
+      background-color: transparent;
     }
   }
 
   &__content {
     border: none;
 
-  @include media(">=tablet") {
+    @include media(">=tablet") {
       border-left: 1px solid $border-color;
       padding: 2.5rem 5rem;
     }
   }
 
   &__date {
+    color: $color-grey-primary;
     font-family: $font-sans-serif;
     font-size: 1.4rem;
     display: flex;
@@ -33,6 +46,7 @@
     line-height: 1;
 
     div {
+      color: $color-black;
       font-size: 2.4rem;
     }
 
