@@ -14,11 +14,11 @@ layout: default
     </div>
   </div>
 
-  <!-- <div class="grid__row">
+  <div class="grid__row">
     <div class="grid__col">
-      <h2 class="page__title sr-left"><span>Blogg</span></h2>
+      <h2 class="page__title--section sr-left"><span>Senaste blogginlägg</span></h2>
     </div>
-  </div> -->
+  </div>
   <div class="grid__row">
     {% for post in site.posts limit: 1 %}
     {% include post.html post=post is_excerpt=true %}
@@ -35,7 +35,7 @@ layout: default
     </div>
   </div>
 
-  <div class="grid__row">
+  <!-- <div class="grid__row">
     <div class="grid__col">
       <h2 class="page__title"><span>Kalender</span></h2>
     </div>
@@ -60,5 +60,5 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  </div>
+  </div> -->
 </div>

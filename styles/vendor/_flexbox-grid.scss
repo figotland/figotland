@@ -1,3 +1,5 @@
+$column-gap: 0.75rem;
+
 .grid {
   padding: 0 1rem;
   width: 100%;
@@ -6,13 +8,28 @@
     margin: 0 auto;
     position: relative;
 
-    @include media("≥desktop", "<widescreen") {
+    // @include media("≥desktop", "<widescreen") {
+    //   max-width: $desktop - (2 * $gap);
+    // }
+
+    // @include media("≥widescreen") {
+    //   max-width: $widescreen - (2 * $gap);
+    // }
+
+    @include media("≥desktop") {
       max-width: $desktop - (2 * $gap);
+      width: $desktop - (2 * $gap);
     }
 
     @include media("≥widescreen") {
       max-width: $widescreen - (2 * $gap);
+      width: $widescreen - (2 * $gap);
     }
+
+    // @include media("≥fullhd") {
+    //   max-width: $fullhd - (2 * $gap);
+    //   width: $fullhd - (2 * $gap);
+    // }
   }
 }
 
@@ -193,5 +210,123 @@
 
   @include media("≥tablet") {
     font-size: 1.4rem;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+
+  @include media("≥desktop") {
+    max-width: $desktop - (2 * $gap);
+    width: $desktop - (2 * $gap);
+  }
+
+  @include media("≥widescreen") {
+    max-width: $widescreen - (2 * $gap);
+    width: $widescreen - (2 * $gap);
+  }
+
+  @include media("≥fullhd") {
+    max-width: $fullhd - (2 * $gap);
+    width: $fullhd - (2 * $gap);
+  }
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: $column-gap;
+
+  @include media("≥tablet") {
+    &.is-three-quarters {
+      flex: none;
+      width: 75%;
+    }
+
+    &.is-two-thirds {
+      flex: none;
+      width: 66.6666%;
+    }
+
+    &.is-half {
+      flex: none;
+      width: 50%;
+    }
+
+    &.is-one-third {
+      flex: none;
+      width: 33.3333%;
+    }
+
+    &.is-one-quarter {
+      flex: none;
+      width: 25%;
+    }
+
+    &.is-one-fifth {
+      flex: none;
+      width: 20%;
+    }
+
+    &.is-two-fifths {
+      flex: none;
+      width: 40%;
+    }
+
+    &.is-three-fifths {
+      flex: none;
+      width: 60%;
+    }
+
+    &.is-four-fifths {
+      flex: none;
+      width: 80%;
+    }
+
+    &.is-offset-three-quarters { margin-left: 75%; }
+
+    &.is-offset-two-thirds { margin-left: 66.6666%; }
+
+    &.is-offset-half { margin-left: 50%; }
+
+    &.is-offset-one-third { margin-left: 33.3333%; }
+
+    &.is-offset-one-quarter { margin-left: 25%; }
+
+    &.is-offset-one-fifth { margin-left: 20%; }
+
+    &.is-offset-two-fifths { margin-left: 40%; }
+
+    &.is-offset-three-fifths { margin-left: 60%; }
+
+    &.is-offset-four-fifths { margin-left: 80%; }
+
+    @for $i from 1 through 12 {
+      &.is-#{$i} {
+        flex: none;
+        width: ($i / 12) * 100%;
+      }
+    }
+  }
+}
+
+.row {
+  margin-left: (-$column-gap);
+  margin-right: (-$column-gap);
+  margin-top: (-$column-gap);
+
+  &:last-child {
+    margin-bottom: (-$column-gap);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: calc(1.5rem - #{$column-gap});
+  }
+
+  @include media("≥tablet") {
+    display: flex;
   }
 }

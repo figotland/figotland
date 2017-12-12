@@ -6,25 +6,14 @@ layout: default
   {% if page.title %}
   <div class="grid__row">
     <div class="grid__col">
-      <h2 class="page__title sr-left">{{ page.title }}</h2>
+      <h2 class="page__title sr-left"><span>{{ page.title }}</span></h2>
     </div>
   </div>
   {% endif %}
 
-  <!-- {% assign collection = site.posts | group_by: "authors" %}
-
-  {% for group in collection %}
-  <h3>{{ group.name | date: "%-d %B %Y" }}</h3>
-  <ul>
-    {% for item in group.items %}
-    <li>{{ item.data }}</li>
-    {% endfor %}
-  </ul>
-  {% endfor %} -->
-
   <div class="grid__row">
    <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-1 grid__col--desktop-10 grid__col--widescreen-10">
-      <ul class="archive__list">
+      <ul class="list">
         {% for post in site.posts %}
         {% assign month = post.date | date: '%B %Y' %}
         {% unless post.next %}
@@ -37,7 +26,7 @@ layout: default
         {% endunless %}
         <li class="archive__item">
           <time class="post__meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d' }}</time>
-          <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="link-highlight" href="{{ post.url | prepend: site.baseurl }}"><span>{{ post.title }}</span></a>
         </li>
         {% endfor %}
       </ul>

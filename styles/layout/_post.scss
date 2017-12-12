@@ -1,7 +1,7 @@
 .post {
-  position: relative;
   display: flex;
   flex-direction: column;
+  position: relative;
   word-wrap: break-word;
 
   @include media("≥tablet", "<desktop") {
@@ -114,6 +114,16 @@
     }
   }
 
+  &__share {
+    left: 120px;
+    position: absolute;
+    width: 24px;
+
+    &--sticky {
+      position: fixed;
+    }
+  }
+
   &__content {
     font-size: 1.6rem;
     line-height: 1.8;
@@ -121,10 +131,6 @@
     @include media('>=tablet') {
       font-size: 1.8rem;
     }
-
-    // p:first-of-type {
-    //   font-weight: 600;
-    // }
   }
 
   &__footer {
