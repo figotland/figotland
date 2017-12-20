@@ -9,6 +9,7 @@ authors:
 - Margareta Nobell
 guest_authors:
 - Oscar Larsson
+image: "/uploads/cover_02-12-15.jpg"
 image_caption: Illustration av Milly Björkman & Agnes Edith Lundgren
 ---
 
