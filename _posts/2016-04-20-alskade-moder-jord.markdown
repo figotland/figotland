@@ -5,7 +5,7 @@ guest_authors: Mio Ribohn
 image: "/uploads/cover_20-04-16.jpg"
 ---
 
-Jag är solen
+Jag är solen<br>
 och du är jorden
 i rymden virvlar vi
 som en
