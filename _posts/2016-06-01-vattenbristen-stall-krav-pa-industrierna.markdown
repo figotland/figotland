@@ -6,6 +6,7 @@ tags:
 authors: Elin Bååth
 guest_authors: Oscar Larsson
 image: "/uploads/cover_01-06-16.jpg"
+image_caption: 'Foto: Borna Bevanda (Unsplash)'
 ---
 
 I år har Gotlands ansträngda vattensituation blivit extra aktuell. Aldrig tidigare har bevattningsförbud införts så tidigt på året. Enligt SMHI kan vi inte heller räkna med att bli räddade av vädret kommande år, då de låga nederbördsmängderna förväntas hålla i sig.
