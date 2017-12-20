@@ -6,29 +6,29 @@ image: "/uploads/cover_20-04-16.jpg"
 ---
 
 Jag är solen<br>
-och du är jorden
-i rymden virvlar vi
-som en
+och du är jorden<br>
+i rymden virvlar vi<br>
+som en<br>
 älskade Moder Jord
 
-Jag ser trädet
-med rötterna i marken
-och känseln i barken
-fri och livskraftig
-som en 
+Jag ser trädet<br>
+med rötterna i marken<br>
+och känseln i barken<br>
+fri och livskraftig<br>
+som en<br>
 med älskade Moder Jord
 
-Jag ser vattnet
-som rör sig fritt
-genom atmosfären, genom marken
-livgivande i samspel
-som en 
+Jag ser vattnet<br>
+som rör sig fritt<br>
+genom atmosfären, genom marken<br>
+livgivande i samspel<br>
+som en<br>
 med älskade Moder Jord
 
-Jag är solen
-och du är jorden
-i rymden virvlar vi
-som en
+Jag är solen<br>
+och du är jorden<br>
+i rymden virvlar vi<br>
+som en<br>
 älskade Moder Jord
 
 Idag, den 22 april, är Internationella dagen för Moder Jord, instiftad av FN:s generalförsamling för prick sju år sedan, med följande motivering:
