@@ -3,6 +3,7 @@ title: Nya F!-representanter i Region Gotlands jämställdhetsgrupp
 date: 2016-10-06 13:52:00 Z
 tags:
 - f! gotland
+guest_authors: F! Gotland
 image: "/uploads/cover_06-10-16.jpg"
 ---
 
