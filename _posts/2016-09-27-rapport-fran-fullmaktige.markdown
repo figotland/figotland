@@ -4,9 +4,6 @@ date: 2016-09-27 13:42:00 Z
 tags:
 - eu-medborgare
 - normkritik
-- hälsa
-- intersektionalitet
-- demokrati
 authors: Elin Bååth
 image: "/uploads/cover_27-09-16.jpg"
 ---
