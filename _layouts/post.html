@@ -23,10 +23,10 @@ layout: default
             <div class="image-overlay"></div>
             <div class="image-reveal"></div>
             <img class="image" src="{{post.image}}" alt="{{post.title}}">
-            {% if post.image_caption %}
-            <div class="image-caption">{{ post.image_caption }}</div>
-            {% endif %}
           </div>
+          {% if post.image_caption %}
+          <div class="image-caption sr-up">{{ post.image_caption }}</div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ layout: default
   {% assign relatedtag = tag %}
   {% endfor %}
   {% assign posts = site.posts | where_exp: "post", "post.tags contains relatedtag" %}
-  {% for post in posts limit: 1 %}
+  {% for post in posts limit: 2 %}
   {% unless post.url == page.url %}
   <div class="grid__row">
    <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-1 grid__col--desktop-7 grid__col--desktop-offset-2 grid__col--widescreen-6 grid__col--desktop-offset-2">
@@ -138,6 +138,7 @@ layout: default
         </div>
       </article>
     </div>
+    {% break %}
   {% endunless %}
   {% endfor %}
   </div>
