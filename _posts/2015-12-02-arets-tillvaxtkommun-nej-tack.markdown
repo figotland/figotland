@@ -5,7 +5,7 @@ tags:
 - ekonomi
 authors:
 - Tomas Pettersson
-- 
+-
 - Stefan Wesley
 - Margareta Nobell
 guest_authors:
