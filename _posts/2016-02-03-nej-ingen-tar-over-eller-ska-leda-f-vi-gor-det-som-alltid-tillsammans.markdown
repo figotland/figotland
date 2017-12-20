@@ -1,6 +1,6 @@
 ---
 title: Nej, ingen tar över eller ska leda F!, vi gör det som alltid tillsammans
-date: 2017-12-20 10:35:00 Z
+date: 2016-02-03 10:35:00 Z
 authors: Stefan Wesley
 image: "/uploads/cover_03-02-16.jpg"
 ---
