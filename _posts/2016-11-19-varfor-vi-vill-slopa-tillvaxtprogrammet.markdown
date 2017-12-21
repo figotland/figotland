@@ -6,6 +6,7 @@ tags:
 authors:
 - Elin Bååth
 - Stefan Wesley
+image: "/uploads/cover_03-02-16.jpg"
 ---
 
 På måndagens regionfullmäktige argumenterade vi, som enda parti, mot förslaget till tillväxtprogram som var uppe. Låt oss förklara varför.
