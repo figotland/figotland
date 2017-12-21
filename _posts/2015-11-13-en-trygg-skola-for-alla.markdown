@@ -7,6 +7,7 @@ authors:
 - Elin Bååth
 guest_authors:
 - Elliot Hammander — Unga Feminister Gotland
+image: "/uploads/cover_13-11-15.jpg"
 ---
 
 Skolan måste vara en trygg plats för alla barn och studerande. Trygghet är själva grunden för att någon form av lärande ska kunna äga rum. Men hur skapas trygghet i skolan?
