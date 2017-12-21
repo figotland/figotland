@@ -103,7 +103,7 @@ FAQ:
     Dagens mjölkindustri är långt ifrån den småskaliga husbehovsproduktionen från förr, och ingenting med den är naturligt. Precis som djur av andra arter - till exempel människor - är det meningen att kon ska producera mjölk bara under den period kalven behöver den. Att som kor i mjölkindustrin producera mjölk hela sina liv är fruktansvärt påfrestande på kroppen och långt ifrån naturligt. Till det kommer det faktum att korna tillbringar större delen av sina liv inomhus, eftersom ett mjölkproducerande juver inte klarar kyla. Listan över det onaturliga lidandet i mjölkindustrin kan göras lång. Läs gärna mer i länken nedan.
 
     Källor och mer info:
-    [Djurens Rätt](http://www.djurensratt.se/sites/default/files/mjolkfabriken.pdf)
+    * [Djurens Rätt](http://www.djurensratt.se/sites/default/files/mjolkfabriken.pdf)
 layout: faq
 ---
 
