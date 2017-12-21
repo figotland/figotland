@@ -22,7 +22,7 @@ FAQ:
     En vegetarisk kost har en betydligt lägre miljöpåverkan än en kost med animaliska produkter. Det är oavsett om maten transporterats långt. Detta för att miljöpåverkan främst uppstår i produktionen på gården och inte på väg till tallriken. Kött eller odlad fisk kräver mycket odlat foder där det skulle vara effektivare att producera livsmedel som vi kan äta direkt.
 
     Källor och mer info:
-    http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/
+    [Naturskyddsföreningen](http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/)
 - question_text: Vi har väl alltid ätit kött i Sverige?
   answer_text: Köttkonsumtionen i världen har fördubblats de senaste 50 åren – från
     ungefär 20 kilo per år till över 40 kilo per person och år, enligt statistik från
@@ -32,7 +32,10 @@ FAQ:
     Alla animalier innehåller skadligt kolesterol, som bidrar till hjärt-kärlsjukdomar - den största dödsorsaken i dagens samhälle. För hälsan är det alltså bra att dra ner på konsumtionen av animalier, och då särskilt kött och chark, som kraftigt ökar risken för hjärt-kärlsjukdomar och olika former av cancer. Ny forskning visar dessutom att mjölk, tvärt emot vad mjölkindustrin länge fört fram, leder till ökad risk för frakturer. När det gäller vitaminer bör i regel alla äta de tillskott som rekommenderas vegetarianer. Exempelvis D-vitamin, som finns berikad i både ko- och växtbaserad mjölk. När det gäller protein menar Livsmedelsverket att den som äter en varierad vagetabilisk kost får i sig alldeles tillräckligt. Svenskarnas intag av protein ligger idag en bit över det rekommenderade intaget.
 
     Källor och mer info:
-    https://www.livsmedelsverket.se/matvanor-halsa–miljo/kostrad-och-matvanor/rad-om-bra-mat-hitta-ditt-satt/kott-och-chark/ http://www.svt.se/nyheter/vetenskap/mycket-mjolk-forkortar-livet http://www.svt.se/nyheter/vetenskap/uppsala-forskare-mjolkdrickande-kopplat-till-okad-dodlighet https://www.livsmedelsverket.se/livsmedel-och-innehall/naringsamne/protein/
+    [Livsmedelsverket](https://www.livsmedelsverket.se/matvanor-halsa–miljo/kostrad-och-matvanor/rad-om-bra-mat-hitta-ditt-satt/kott-och-chark/)
+    [SVT](http://www.svt.se/nyheter/vetenskap/mycket-mjolk-forkortar-livet)
+    [SVT](http://www.svt.se/nyheter/vetenskap/uppsala-forskare-mjolkdrickande-kopplat-till-okad-dodlighet)
+    [Livsmedelsverket](https://www.livsmedelsverket.se/livsmedel-och-innehall/naringsamne/protein/)
 - question_text: Borde inte var och en själv få bestämma?
   answer_text: |-
     Att äta animalier är sällan ett aktivt val. Snarare handlar det om vanor och samhällsstrukturer - normen för kost innehåller idag kött, och det kräver oftast mer aktiva val och insatser för att äta vegetabiliskt. Vårt förslag innebär inte att någon tvingas äta vegetabiliskt - bara att det blir normen, och att det ska krävas ett aktivt val för att äta animalier.
