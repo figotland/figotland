@@ -47,22 +47,3 @@ abbr[title] { text-decoration: none; }
 .text--right {
   text-align: right;
 }
-
-// .text {
-//   &--drop-cap {
-//     p:first-child:first-letter {
-//       color: $primary-pink;
-//       float: left;
-//       font-family: $font-serif;
-//       font-size: 11rem;
-//       line-height: .75;
-//       margin: 0.5rem 1rem 0 0;
-//     }
-
-//     p q:first-child:first-letter {
-//       color: inherit;
-//       font-size: inherit;
-//       line-height: inherit;
-//     }
-//   }
-// }

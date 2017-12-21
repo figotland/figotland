@@ -25,8 +25,7 @@ layout: default
         {% endif %}
         {% endunless %}
         <li class="archive__item">
-          <time class="post__meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d' }}</time>
-          <a class="link-highlight" href="{{ post.url | prepend: site.baseurl }}"><span>{{ post.title }}</span></a>
+          <a class="link-highlight" href="{{ post.url | prepend: site.baseurl }}"><span>{{ post.date | date: '%d' }} {{ post.title }}</span></a>
         </li>
         {% endfor %}
       </ul>

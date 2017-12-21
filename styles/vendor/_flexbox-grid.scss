@@ -89,6 +89,7 @@ $column-gap: 0.75rem;
                          "i9 c9"
                          "c10 i10";
     max-width: 100%;
+    padding-top: 3rem;
 
     @include media("≥tablet", "<desktop") {
       grid-gap: 20px;
