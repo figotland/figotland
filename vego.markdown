@@ -76,13 +76,15 @@ FAQ:
     Det är inte heller så att vi måste föda upp djur för mat för att kunna hålla naturbetesmarkerna öppna. Örebro kommun har exempelvis köpt in kommunala kor för detta ändamål, som är helt självfinansierade, eftersom kommunen får EU-bidrag för dem och tar foder från egen mark. Skötseln av djuren ingår som en del i kommunens arbetsmarknadsåtgärder för arbetslösa. I Krusenberg strax söder om Uppsala pågår ett forskningsprojekt (SLU) kring så kallad “rewildering” av hästar (gotlandsruss!), och runt om i Europa pågår liknande projekt.
 
     Källor och mer info:
-    http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego http://orebro.etc.se/kultur-noje/kommunala-kor-oppnar-landskap http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/
+    [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego http://orebro.etc.se/kultur-noje/kommunala-kor-oppnar-landskap)
+    [Naturskyddsföreningen](http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/)
 - question_text: Hur ska vi kunna odla och ha jordbruk utan gödsel från djur?
   answer_text: |-
     I dag tillförs mer näring i form av kväve till ekosystemen än någonsin tidigare. Det har rubbat hela det globala kvävekretsloppet och är grundorsaken till övergödningen av haven samt en tung orsak till klimatpåverkan, försurning och ozonhål. Forskningen om planetens gränser visar att jordbrukets tillförsel av kväve måste minska med hela 59 procent på global nivå. Ett exempel på en alternativ metod är kretslopp med växtföljder och kvävefixerande grödor, sk gröngödsling. Och utvecklingen går framåt; det finns exempel på ekologisk brödspannmål som endast gödslas genom odling av kvävefixerande grödor och det finns tekniker som kan cirkulera ren fosfor från våra avlopp.
 
     Källor och mer info:
-    http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego http://www.naturskyddsforeningen.se/sites/default/files/dokument-media/ekologiskt_lantbruk_4_2015_0.pdf
+    [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego)
+    [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/sites/default/files/dokument-media/ekologiskt_lantbruk_4_2015_0.pdf)
 - question_text: Men soja, då? Bidrar man inte till massa regnskogsskövling om man
     äter tofu och andra vegetabiliska alternativ?
   answer_text: Huvuddelen av sojan som odlas används som djurfoder i animalieproduktion
@@ -95,13 +97,13 @@ FAQ:
     Köttproduktionen står för 15% av utsläppet av växthusgaser det är mer än hela transprotsektorn sammanslaget. Alltså mer än alla bilresor, semesterflygresor OCH all transport av mat. Det är också en av de allra mest onödiga källorna till utsläpp - de åsamkar djuren lidande, och i den mängd vi idag äter animalier är det dessutom skadligt för våra kroppar. I lokalpolitiken kan vi inte heller påverka flyg- och biltrafik - men vi KAN påverka skolan, och därigenom vilka vanor människor utvecklar.
 
     Källor och mer info:
-    http://www.jordbruksverket.se/amnesomraden/miljoklimat/begransadklimatpaverkan/kottoc
+    [Jordbruksverket](http://www.jordbruksverket.se/amnesomraden/miljoklimat/begransadklimatpaverkan/kottochklimat.4.32b12c7f12940112a7c800011009.html)
 - question_text: Varför säger ni att det är synd om korna i mjökindustrin?
   answer_text: |-
     Dagens mjölkindustri är långt ifrån den småskaliga husbehovsproduktionen från förr, och ingenting med den är naturligt. Precis som djur av andra arter - till exempel människor - är det meningen att kon ska producera mjölk bara under den period kalven behöver den. Att som kor i mjölkindustrin producera mjölk hela sina liv är fruktansvärt påfrestande på kroppen och långt ifrån naturligt. Till det kommer det faktum att korna tillbringar större delen av sina liv inomhus, eftersom ett mjölkproducerande juver inte klarar kyla. Listan över det onaturliga lidandet i mjölkindustrin kan göras lång. Läs gärna mer i länken nedan.
 
     Källor och mer info:
-    http://www.djurensratt.se/sites/default/files/mjolkfabriken.pdf
+    [Djurens Rätt](http://www.djurensratt.se/sites/default/files/mjolkfabriken.pdf)
 layout: faq
 ---
 
