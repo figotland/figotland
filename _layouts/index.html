@@ -16,10 +16,10 @@ layout: default
 
   <div class="grid__row">
     <div class="grid__col">
-      <h2 class="page__title--section sr-left"><span>Senaste blogginlägg</span></h2>
+      <h3 class="page__title--section sr-left"><span>Senaste blogginlägg</span></h3>
     </div>
   </div>
-  <div class="grid__row">
+  <div class="grid__row" style="margin-top: -1.6rem;">
     {% for post in site.posts limit: 1 %}
     {% include post.html post=post is_excerpt=true %}
     {% endfor %}

@@ -41,6 +41,16 @@
     p:first-of-type {
       margin-top: 0;
     }
+
+    ul li a {
+      border-bottom: 2px solid $link-color;
+      transition: color .1s linear, border-color .1s linear;
+
+      &:hover {
+        color: $link-color;
+        border-color: transparent;
+      }
+    }
   }
 }
 

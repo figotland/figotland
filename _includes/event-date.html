@@ -15,7 +15,7 @@
   {% when '12' %}DEC
 {% endcase %}
 
-{% assign day = event.starts_at | date: "%-d"  %}
+{% assign day = event.starts_at | date: "%d"  %}
 
 {% case day %}
   {% when '1' or '2' or '21' or '22' or '31'%}<div>{{ day }}</div>
