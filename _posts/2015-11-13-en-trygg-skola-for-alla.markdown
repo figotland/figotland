@@ -6,7 +6,7 @@ tags:
 authors:
 - Elin Bååth
 guest_authors:
-- Elliot Hammander — Unga Feminister Gotland
+- Elliot Hammander
 image: "/uploads/cover_13-11-15.jpg"
 ---
 
