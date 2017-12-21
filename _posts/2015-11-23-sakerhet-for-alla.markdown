@@ -5,6 +5,7 @@ tags:
 - terrorism
 guest_authors:
 - Mio Ribohn
+image: "/uploads/cover_23-11-15.jpg"
 ---
 
 Så vad tror ni kommer hända efter att terrorhotsnivån höjts?
