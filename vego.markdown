@@ -104,7 +104,7 @@ FAQ:
 
     Källor och mer info:
     * [Djurens Rätt](http://www.djurensratt.se/sites/default/files/mjolkfabriken.pdf)
-video: <iframe width="560" height="315" src="https://www.youtube.com/embed/hUgtBMosU_w"
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/9Oe-StX1Fvs"
   frameborder="0" allowfullscreen></iframe>
 layout: faq
 ---
