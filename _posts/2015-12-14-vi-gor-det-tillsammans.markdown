@@ -5,6 +5,7 @@ tags:
 - feminism
 - solidaritet
 authors: Elin Bååth
+image: "/uploads/cover_28-01-16.jpg"
 ---
 
 För 2 år sedan trodde jag att jag var ganska ensam om mina drömmar för världen. Jag trodde definitivt inte att några av de drömmarna skulle bli verklighet inom en nära framtid. Och jag trodde inte att jag hade kraften att vara med och förverkliga det.
