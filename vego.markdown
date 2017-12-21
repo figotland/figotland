@@ -22,7 +22,7 @@ FAQ:
     En vegetarisk kost har en betydligt lägre miljöpåverkan än en kost med animaliska produkter. Det är oavsett om maten transporterats långt. Detta för att miljöpåverkan främst uppstår i produktionen på gården och inte på väg till tallriken. Kött eller odlad fisk kräver mycket odlat foder där det skulle vara effektivare att producera livsmedel som vi kan äta direkt.
 
     Källor och mer info:
-    [Naturskyddsföreningen](http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/)
+    * [Naturskyddsföreningen](http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/)
 - question_text: Vi har väl alltid ätit kött i Sverige?
   answer_text: Köttkonsumtionen i världen har fördubblats de senaste 50 åren – från
     ungefär 20 kilo per år till över 40 kilo per person och år, enligt statistik från
@@ -32,10 +32,10 @@ FAQ:
     Alla animalier innehåller skadligt kolesterol, som bidrar till hjärt-kärlsjukdomar - den största dödsorsaken i dagens samhälle. För hälsan är det alltså bra att dra ner på konsumtionen av animalier, och då särskilt kött och chark, som kraftigt ökar risken för hjärt-kärlsjukdomar och olika former av cancer. Ny forskning visar dessutom att mjölk, tvärt emot vad mjölkindustrin länge fört fram, leder till ökad risk för frakturer. När det gäller vitaminer bör i regel alla äta de tillskott som rekommenderas vegetarianer. Exempelvis D-vitamin, som finns berikad i både ko- och växtbaserad mjölk. När det gäller protein menar Livsmedelsverket att den som äter en varierad vagetabilisk kost får i sig alldeles tillräckligt. Svenskarnas intag av protein ligger idag en bit över det rekommenderade intaget.
 
     Källor och mer info:
-    [Livsmedelsverket](https://www.livsmedelsverket.se/matvanor-halsa–miljo/kostrad-och-matvanor/rad-om-bra-mat-hitta-ditt-satt/kott-och-chark/)
-    [SVT](http://www.svt.se/nyheter/vetenskap/mycket-mjolk-forkortar-livet)
-    [SVT](http://www.svt.se/nyheter/vetenskap/uppsala-forskare-mjolkdrickande-kopplat-till-okad-dodlighet)
-    [Livsmedelsverket](https://www.livsmedelsverket.se/livsmedel-och-innehall/naringsamne/protein/)
+    * [Livsmedelsverket](https://www.livsmedelsverket.se/matvanor-halsa–miljo/kostrad-och-matvanor/rad-om-bra-mat-hitta-ditt-satt/kott-och-chark/)
+    * [SVT](http://www.svt.se/nyheter/vetenskap/mycket-mjolk-forkortar-livet)
+    * [SVT](http://www.svt.se/nyheter/vetenskap/uppsala-forskare-mjolkdrickande-kopplat-till-okad-dodlighet)
+    * [Livsmedelsverket](https://www.livsmedelsverket.se/livsmedel-och-innehall/naringsamne/protein/)
 - question_text: Borde inte var och en själv få bestämma?
   answer_text: |-
     Att äta animalier är sällan ett aktivt val. Snarare handlar det om vanor och samhällsstrukturer - normen för kost innehåller idag kött, och det kräver oftast mer aktiva val och insatser för att äta vegetabiliskt. Vårt förslag innebär inte att någon tvingas äta vegetabiliskt - bara att det blir normen, och att det ska krävas ett aktivt val för att äta animalier.
@@ -76,15 +76,15 @@ FAQ:
     Det är inte heller så att vi måste föda upp djur för mat för att kunna hålla naturbetesmarkerna öppna. Örebro kommun har exempelvis köpt in kommunala kor för detta ändamål, som är helt självfinansierade, eftersom kommunen får EU-bidrag för dem och tar foder från egen mark. Skötseln av djuren ingår som en del i kommunens arbetsmarknadsåtgärder för arbetslösa. I Krusenberg strax söder om Uppsala pågår ett forskningsprojekt (SLU) kring så kallad “rewildering” av hästar (gotlandsruss!), och runt om i Europa pågår liknande projekt.
 
     Källor och mer info:
-    [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego http://orebro.etc.se/kultur-noje/kommunala-kor-oppnar-landskap)
-    [Naturskyddsföreningen](http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/)
+    * [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego http://orebro.etc.se/kultur-noje/kommunala-kor-oppnar-landskap)
+    * [Naturskyddsföreningen](http://blogg.naturskyddsforeningen.se/blog/2012/03/16/ar-det-battre-att-ata-naturbetat-kott-an-sojabonor/)
 - question_text: Hur ska vi kunna odla och ha jordbruk utan gödsel från djur?
   answer_text: |-
     I dag tillförs mer näring i form av kväve till ekosystemen än någonsin tidigare. Det har rubbat hela det globala kvävekretsloppet och är grundorsaken till övergödningen av haven samt en tung orsak till klimatpåverkan, försurning och ozonhål. Forskningen om planetens gränser visar att jordbrukets tillförsel av kväve måste minska med hela 59 procent på global nivå. Ett exempel på en alternativ metod är kretslopp med växtföljder och kvävefixerande grödor, sk gröngödsling. Och utvecklingen går framåt; det finns exempel på ekologisk brödspannmål som endast gödslas genom odling av kvävefixerande grödor och det finns tekniker som kan cirkulera ren fosfor från våra avlopp.
 
     Källor och mer info:
-    [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego)
-    [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/sites/default/files/dokument-media/ekologiskt_lantbruk_4_2015_0.pdf)
+    * [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/vad-vi-gor/klimat/faqvego)
+    * [Naturskyddsföreningen](http://www.naturskyddsforeningen.se/sites/default/files/dokument-media/ekologiskt_lantbruk_4_2015_0.pdf)
 - question_text: Men soja, då? Bidrar man inte till massa regnskogsskövling om man
     äter tofu och andra vegetabiliska alternativ?
   answer_text: Huvuddelen av sojan som odlas används som djurfoder i animalieproduktion
@@ -97,7 +97,7 @@ FAQ:
     Köttproduktionen står för 15% av utsläppet av växthusgaser det är mer än hela transprotsektorn sammanslaget. Alltså mer än alla bilresor, semesterflygresor OCH all transport av mat. Det är också en av de allra mest onödiga källorna till utsläpp - de åsamkar djuren lidande, och i den mängd vi idag äter animalier är det dessutom skadligt för våra kroppar. I lokalpolitiken kan vi inte heller påverka flyg- och biltrafik - men vi KAN påverka skolan, och därigenom vilka vanor människor utvecklar.
 
     Källor och mer info:
-    [Jordbruksverket](http://www.jordbruksverket.se/amnesomraden/miljoklimat/begransadklimatpaverkan/kottochklimat.4.32b12c7f12940112a7c800011009.html)
+    * [Jordbruksverket](http://www.jordbruksverket.se/amnesomraden/miljoklimat/begransadklimatpaverkan/kottochklimat.4.32b12c7f12940112a7c800011009.html)
 - question_text: Varför säger ni att det är synd om korna i mjökindustrin?
   answer_text: |-
     Dagens mjölkindustri är långt ifrån den småskaliga husbehovsproduktionen från förr, och ingenting med den är naturligt. Precis som djur av andra arter - till exempel människor - är det meningen att kon ska producera mjölk bara under den period kalven behöver den. Att som kor i mjölkindustrin producera mjölk hela sina liv är fruktansvärt påfrestande på kroppen och långt ifrån naturligt. Till det kommer det faktum att korna tillbringar större delen av sina liv inomhus, eftersom ett mjölkproducerande juver inte klarar kyla. Listan över det onaturliga lidandet i mjölkindustrin kan göras lång. Läs gärna mer i länken nedan.
