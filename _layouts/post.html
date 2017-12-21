@@ -126,12 +126,12 @@ layout: default
         {% if post.image contains '.jpg' %}
         <img src="{{post.image}}">
         {% else %}
-        <!-- <img src="{{post.image}}"> -->
+        <div class="related-post__spacer"></div>
         {% endif %}
         </a>
         <div class="related-post__content">
           <div class="clearfix">
-            <p class="related-post__meta">Läs även</p>
+            <p class="related-post__meta">{{relatedtag}}</p>
             <time class="related-post__date">{{ post.date | date: "%m/%d/%Y" }}</time>
           </div>
           <h3 class="related-post__title"><a href="{{post.url}}">{{ post.title }}</a></h3>

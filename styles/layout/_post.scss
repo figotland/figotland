@@ -146,6 +146,10 @@
   flex-direction: column;
   margin-bottom: 3rem;
 
+  &__spacer {
+    height: 4rem;
+  }
+
   &__content {
     background: #e1fefa;
     flex: 1;
