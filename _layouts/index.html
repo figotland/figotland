@@ -8,7 +8,7 @@ layout: default
       <div class="hero__content">
         <div class="grid__col grid__col--tablet-8 grid__col--desktop-10 grid__col--widescreen-8">
           <h1 class="hero__title sr-hero-1">Vi kämpar för en jämställd, jämlik och ekologiskt hållbar ö och värld.</h1>
-          <a class="card__link sr-hero-1" href="{{post.url}}"><span>Läs mer om oss</span><div class="underline"></div></a>
+          <a class="card__link sr-hero-1" href="/om"><span>Läs mer om oss</span><div class="underline"></div></a>
         </div>
       </div>
     </div>
@@ -29,36 +29,9 @@ layout: default
       <div class="hero__content text--right">
         <div class="grid__col grid__col--tablet-8 grid__col--tablet-offset-4">
           <h1 class="hero__title sr-hero-2">Feminism innebär att alla människors lika värde och rättigheter sätts absolut&nbsp;främst.</h1>
-          <a class="card__link sr-hero-2" href="{{post.url}}"><span>Läs mer om vår politik</span><div class="underline"></div></a>
+          <a class="card__link sr-hero-2" href="/politik"><span>Läs mer om vår politik</span><div class="underline"></div></a>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- <div class="grid__row">
-    <div class="grid__col">
-      <h2 class="page__title"><span>Kalender</span></h2>
-    </div>
-  </div>
-  <div class="grid__row">
-    <div class="grid__col">
-      {% assign sorted_events = site.events | sort: "starts_at" %}
-      <div class="tile">
-        {% for event in sorted_events limit: 4 %}
-        <div class="tile tile--is-parent sr-left">
-          <div class="card">
-            <div class="card__content">
-              {% if event.starts_at %}
-              <div class="card__time">
-                <svg class="icon icon--24x24"><use xlink:href="#icon-date"></use></svg><span>{{ event.starts_at | date: "%d/%-m" }}</span>
-              </div>
-              {% endif %}
-              {{event.title}}
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div> -->
 </div>
