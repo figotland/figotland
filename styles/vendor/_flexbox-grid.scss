@@ -8,14 +8,6 @@ $column-gap: 0.75rem;
     margin: 0 auto;
     position: relative;
 
-    // @include media("≥desktop", "<widescreen") {
-    //   max-width: $desktop - (2 * $gap);
-    // }
-
-    // @include media("≥widescreen") {
-    //   max-width: $widescreen - (2 * $gap);
-    // }
-
     @include media("≥desktop") {
       max-width: $desktop - (2 * $gap);
       width: $desktop - (2 * $gap);
@@ -25,11 +17,6 @@ $column-gap: 0.75rem;
       max-width: $widescreen - (2 * $gap);
       width: $widescreen - (2 * $gap);
     }
-
-    // @include media("≥fullhd") {
-    //   max-width: $fullhd - (2 * $gap);
-    //   width: $fullhd - (2 * $gap);
-    // }
   }
 }
 
@@ -133,6 +120,13 @@ $column-gap: 0.75rem;
 
 .gallery__content {
   position: relative;
+}
+
+.placeholder {
+  background-color: $border-color;
+  max-height: 500px;
+  height: 100%;
+  width: 500px;
 }
 
 .gallery__body {
