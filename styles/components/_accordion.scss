@@ -21,6 +21,12 @@
     font-size: 1.6rem;
     padding: 1.5rem 0;
     width: 90%;
+
+    -webkit-text-decoration-skip: ink;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__content {
@@ -69,13 +75,20 @@
 }
 
 .accordion--is-expanded {
+  .accordion__title {
+    text-decoration: underline;
+
+    -webkit-text-decoration-skip: ink;
+  }
+
   .accordion__content {
     animation-name: overflowVisible;
     animation-delay: 960ms;
-    max-height: 100em;
+    max-height: 200em;
     transition-delay: 240ms;
     transition-duration: 720ms;
   }
+
   .icon {
     transform: rotate(225deg);
     transition-duration: 480ms
