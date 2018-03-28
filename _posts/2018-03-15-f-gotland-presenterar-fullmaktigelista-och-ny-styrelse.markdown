@@ -31,12 +31,11 @@ F! GOTLANDS FULLMÄKTIGELISTA
 8. Martin Kolberg 
 9. Jakob Berglund Rogert 
 10. Tove Jokiranta 
-11. Lisa Tunegård 
-12. Stefan Wesley 
-13. Emma Jernberg 
-14. Johan Sten 
-15. Cecilia Herdenstam 
-16. Patrik von Corswant 
-17. Karin Palmenfelt 
-18. Lisen Kebbe 
-19. Agnes Lundgren
+11. Stefan Wesley 
+12. Emma Jernberg 
+13. Johan Sten 
+14. Cecilia Herdenstam 
+15. Patrik von Corswant 
+16. Karin Palmenfelt 
+17. Lisen Kebbe 
+18. Agnes Lundgren
